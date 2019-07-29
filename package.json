@@ -29,5 +29,7 @@
   "author": "BeeJee",
   "license": "ISC",
   "homepage": "https://bitbucket.org/ArbuzovAlek/radio#readme",
-  "dependencies": {}
+  "dependencies": {
+    "fomantic-ui": "^2.7.7"
+  }
 }

@@ -2,14 +2,14 @@ let mix = require('laravel-mix');
 
 mix
     .sass('assets/scss/base.scss', 'public/css/')
+    .copy('assets/lib/semantic/dist/semantic.min.css', 'public/lib/css')
+    .copy('assets/lib/semantic/dist/semantic.min.js', 'public/lib/js')
+    .copy('assets/lib/jquery/jquery.min.js', 'public/lib/js')
     .copyDirectory('assets/images', 'public/images')
     .styles([
-        'assets/lib/semantic/semantic.min.css',
         'public/css/base.css'
     ], 'public/css/radio.css')
     .scripts([
-        'assets/lib/jquery/jquery.min.js',
-        'assets/lib/semantic/semantic.min.js',
-        'public/css/base.css'
+        'public/css/base.js'
     ], 'public/js/radio.js') 
 ;
