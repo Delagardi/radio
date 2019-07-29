@@ -1,0 +1,56 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: #AAAAAA;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #161618;
+}
+
+h5 {
+  margin-top: 0;
+}
+
+.widget {
+  border: 1px solid #D1D1D1;
+  padding: 20px 28px;
+}
+
+.widget-head {
+  border-bottom: 1px solid #D1D1D1;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.widget-head h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #3389FF;
+  margin-bottom: 0;
+}
+
+.widget-head:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 2px;
+  width: 30px;
+  background-color: #3389FF;
+}
+
+.ui.label {
+  border-radius: 0;
+  text-transform: uppercase;
+}
+

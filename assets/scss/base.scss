@@ -1,0 +1,52 @@
+@import './variables';
+
+body {
+    font-family: $textFont;
+    font-style: normal;
+    font-size: 14px;
+    color: $textColor;
+}
+
+h1, h2, h3, h4, h5 {
+    color: $titleColor;
+}
+
+h5 {
+    margin-top: 0;
+}
+
+.widget {
+    border: 1px solid $borderColor;
+    padding: 20px 28px;
+    &-head {
+        border-bottom: 1px solid $borderColor;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        
+        h1 { 
+            font-family: $titleFont;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: $primaryColor;
+            margin-bottom: 0;
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0; 
+            bottom: -1px;
+            height: 2px;
+            width: 30px;
+            background-color: $primaryColor;
+        }
+    }
+}
+
+.ui.label {
+    border-radius: 0;
+    text-transform: uppercase;
+}

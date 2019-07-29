@@ -1,0 +1,95 @@
+@import './variables';
+
+.last-news {
+  .widget-head {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .submenu {
+      display: flex;
+      align-items: center;
+    
+      &-link {
+        color: $titleColor;
+        padding: 0 10px;
+        font-size: 14px;
+    
+        &.active {
+          color: $primaryColor;
+        }
+      }
+    
+      &-nav {
+        color: $textColor;
+        padding: 0 10px;
+    
+        i {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .widget-body {
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      color: $textColor;
+    
+      .statistics {
+        display: flex;
+        align-items: center;
+
+        .item {
+          margin: 0 10px 0 0;
+          align-items: center;
+          font-size: 12px;
+          line-height: 14px;
+
+          &:last-of-type {
+            margin: 0;
+          }
+      
+          i {
+            margin: 0 5px 0 0;
+            font-size: 11px;
+            line-height: 13px;
+          }
+        }
+      }
+    }
+
+    .label {
+      position: absolute;
+      top: 10px;
+      left: 8px;
+    }
+
+    .items {
+      .item > .image + .content {
+        padding-left: 10px;
+      }
+
+      .item > .image {
+        width: 120px;
+      }
+
+      .item .meta {
+        margin: 0 0 5px;
+      }
+    }
+
+    .main-new {
+      label {
+        top: 30px; 
+        left: 30px;
+      }
+
+      .meta {
+        padding: 13px 0 10px;
+      }
+    }
+  }
+}
+
