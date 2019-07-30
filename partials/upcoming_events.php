@@ -8,7 +8,7 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/event1.png') ?>">
+                        <img src="<?= url('images/events/event1.png') ?>">
                     </div>
                     <div class="content">
                         <span class="right floated likes">20</span>
@@ -29,7 +29,7 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/event2.png') ?>">
+                        <img src="<?= url('images/events/event2.png') ?>">
                     </div>
                     <div class="content">
                         <span class="right floated likes">34</span>
@@ -50,7 +50,7 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/event3.png') ?>">
+                        <img src="<?= url('images/events/event3.png') ?>">
                     </div>
                     <div class="content">
                         <span class="right floated likes">20</span>

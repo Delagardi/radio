@@ -17,7 +17,7 @@
             <div class="column main-new">
                 <div class="ui fluid image">
                     <div class="ui primary label">life style</div>
-                    <img src="<?= url('images/image.png') ?>">
+                    <img src="<?= url('images/news/main_new.png') ?>">
                 </div>
                 <div class="content">
                     <div class="meta">
@@ -57,7 +57,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary label">foods</div>
-                            <img src="<?= url('images/food.png') ?>">
+                            <img src="<?= url('images/news/new1.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -87,7 +87,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary label">tech</div>
-                            <img src="<?= url('images/tech.png') ?>">
+                            <img src="<?= url('images/news/new3.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -117,7 +117,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary label">travel</div>
-                            <img src="<?= url('images/travel.png') ?>">
+                            <img src="<?= url('images/news/new4.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -147,7 +147,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary label">racing</div>
-                            <img src="<?= url('images/travel.png') ?>">
+                            <img src="<?= url('images/news/new2.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta">
@@ -177,7 +177,7 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary label">life style</div>
-                            <img src="<?= url('images/lifestyle.png') ?>">
+                            <img src="<?= url('images/news/new5.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta">
