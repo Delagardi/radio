@@ -8,6 +8,7 @@
         <div class="ui container">
             <? include APP_DIR . '/partials/last_news.php' ?>
         </div>
+        <? include APP_DIR . '/partials/footer.php' ?>
 
         <script type="text/javascript" src="<?= url('lib/jquery/jquery.min.js') ?>"></script>
         <script type="text/javascript" src="<?= url('lib/semantic/semantic.min.js') ?>"></script>

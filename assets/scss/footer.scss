@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+.footer {
+    height: $footerHeight;
+    background-color: $footerBgColor;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        .copy {
+            font-size: 12px;
+            line-height: 14px;
+            color: $lightTextColor;
+            .copyright {
+                font-size: 14px;
+                line-height: 16px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

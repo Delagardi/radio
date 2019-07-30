@@ -1,0 +1,30 @@
+.footer {
+  height: 60px;
+  background-color: #161618;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .container .copy {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.footer .container .copy .copyright {
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 10px;
+}
+
