@@ -1,5 +1,9 @@
+.last-news .ui.label {
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
 .last-news .widget-head {
-  position: relative;
   display: flex;
   justify-content: space-between;
 }

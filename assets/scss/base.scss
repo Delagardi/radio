@@ -5,26 +5,51 @@ body {
     font-style: normal;
     font-size: 14px;
     color: $textColor;
-    height: 100%;
-    min-height: 100%;
-    padding-bottom: $footerHeight;
+    display: flex;
+    flex-direction: column;
+}
+
+body > .container {
+    flex: 1 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
     color: $titleColor;
+    font-family: $titleFont;
 }
 
 h5 {
     margin-top: 0;
 }
 
+.ui.grid {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ui.grid>.column:not(.row), 
+.ui.grid>.row>.column {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .widget {
-    border: 1px solid $borderColor;
-    padding: 20px 28px;
+    margin-bottom: 40px;
+
+    &.bordered {
+        border: 1px solid $borderColor;
+        padding: 20px 28px;
+    }
+
     &-head {
         border-bottom: 1px solid $borderColor;
         padding-bottom: 20px;
         margin-bottom: 30px;
+        position: relative;
         
         h1 { 
             font-family: $titleFont;
@@ -47,9 +72,4 @@ h5 {
             background-color: $primaryColor;
         }
     }
-}
-
-.ui.label {
-    border-radius: 0;
-    text-transform: uppercase;
 }

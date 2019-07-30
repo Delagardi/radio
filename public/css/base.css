@@ -3,9 +3,12 @@ body {
   font-style: normal;
   font-size: 14px;
   color: #AAAAAA;
-  height: 100%;
-  min-height: 100%;
-  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+body > .container {
+  flex: 1 0 auto;
 }
 
 h1,
@@ -14,13 +17,33 @@ h3,
 h4,
 h5 {
   color: #161618;
+  font-family: "Poppins", sans-serif;
 }
 
 h5 {
   margin-top: 0;
 }
 
+.ui.grid {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.ui.grid > .column:not(.row),
+.ui.grid > .row > .column {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .widget {
+  margin-bottom: 40px;
+}
+
+.widget.bordered {
   border: 1px solid #D1D1D1;
   padding: 20px 28px;
 }
@@ -29,6 +52,7 @@ h5 {
   border-bottom: 1px solid #D1D1D1;
   padding-bottom: 20px;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .widget-head h1 {
@@ -50,10 +74,5 @@ h5 {
   height: 2px;
   width: 30px;
   background-color: #3389FF;
-}
-
-.ui.label {
-  border-radius: 0;
-  text-transform: uppercase;
 }
 

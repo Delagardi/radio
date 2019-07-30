@@ -7,6 +7,7 @@
         <? include APP_DIR . '/partials/header.php' ?>
         <div class="ui container">
             <? include APP_DIR . '/partials/last_news.php' ?>
+            <? include APP_DIR . '/partials/upcoming_events.php' ?>
         </div>
         <? include APP_DIR . '/partials/footer.php' ?>
 

@@ -1,12 +1,9 @@
 .footer {
   height: 60px;
   background-color: #161618;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .footer .container {
