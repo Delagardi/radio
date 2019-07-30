@@ -39,6 +39,10 @@ h5 {
   padding-bottom: 0;
 }
 
+.ui.items > .item .meta {
+  color: #AAAAAA;
+}
+
 .widget {
   margin-bottom: 40px;
 }
@@ -49,10 +53,17 @@ h5 {
 }
 
 .widget-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #D1D1D1;
   padding-bottom: 20px;
   margin-bottom: 30px;
   position: relative;
+}
+
+.widget-head .icon.badge {
+  color: #3389FF;
 }
 
 .widget-head h1 {
@@ -76,15 +87,18 @@ h5 {
   background-color: #3389FF;
 }
 
+.widget-body .meta {
+  display: flex;
+  justify-content: space-between;
+  color: #AAAAAA;
+}
+
 
 .last-news .ui.label {
   border-radius: 0;
   text-transform: uppercase;
-}
-
-.last-news .widget-head {
-  display: flex;
-  justify-content: space-between;
+  font-size: 8px;
+  padding: 5px 7px;
 }
 
 .last-news .widget-head .submenu {
@@ -109,12 +123,6 @@ h5 {
 
 .last-news .widget-head .submenu-nav i {
   cursor: pointer;
-}
-
-.last-news .widget-body .meta {
-  display: flex;
-  justify-content: space-between;
-  color: #AAAAAA;
 }
 
 .last-news .widget-body .meta .statistics {
@@ -204,20 +212,11 @@ h5 {
 }
 
 
-.upcoming-events .widget-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.upcoming-events .widget-head .calendar {
-  color: #3389FF;
-  font-size: 15px;
-}
-
 .upcoming-events .card {
   border-radius: 0px;
   width: 100%;
+  box-shadow: none;
+  border: 1px solid #D1D1D1;
 }
 
 .upcoming-events .card .title {
@@ -244,4 +243,5 @@ h5 {
 .upcoming-events .card > .image {
   border-radius: 0px !important;
 }
+
 

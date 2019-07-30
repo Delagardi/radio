@@ -1,20 +1,11 @@
 @import './variables';
 
 .upcoming-events {
-    .widget-head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .calendar {
-            color: $primaryColor;
-            font-size: 15px;
-        }
-    }
-    
     .card {
         border-radius: 0px;
         width: 100%;
+        box-shadow: none;
+        border: 1px solid $borderColor;
 
         .title {
             font-weight: 600;

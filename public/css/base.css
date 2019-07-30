@@ -39,6 +39,10 @@ h5 {
   padding-bottom: 0;
 }
 
+.ui.items > .item .meta {
+  color: #AAAAAA;
+}
+
 .widget {
   margin-bottom: 40px;
 }
@@ -49,10 +53,17 @@ h5 {
 }
 
 .widget-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid #D1D1D1;
   padding-bottom: 20px;
   margin-bottom: 30px;
   position: relative;
+}
+
+.widget-head .icon.badge {
+  color: #3389FF;
 }
 
 .widget-head h1 {
@@ -74,5 +85,11 @@ h5 {
   height: 2px;
   width: 30px;
   background-color: #3389FF;
+}
+
+.widget-body .meta {
+  display: flex;
+  justify-content: space-between;
+  color: #AAAAAA;
 }
 

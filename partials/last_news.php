@@ -53,7 +53,7 @@
             </div>
     
             <div class="column">
-                <div class="ui items">
+                <div class="ui items unstackable">
                     <div class="item">
                         <div class="image">
                             <div class="ui primary label">foods</div>

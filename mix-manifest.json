@@ -4,6 +4,7 @@
     "/public/css/header.css": "/public/css/header.css",
     "/public/css/footer.css": "/public/css/footer.css",
     "/public/css/upcoming_events.css": "/public/css/upcoming_events.css",
+    "/public/css/most_viewed.css": "/public/css/most_viewed.css",
     "/public/lib/semantic/semantic.min.css": "/public/lib/semantic/semantic.min.css",
     "/public/lib/semantic/semantic.min.js": "/public/lib/semantic/semantic.min.js",
     "/public/lib/jquery/jquery.min.js": "/public/lib/jquery/jquery.min.js",

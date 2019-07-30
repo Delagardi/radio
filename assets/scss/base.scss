@@ -29,12 +29,16 @@ h5 {
     margin-right: -10px;
 }
 
-.ui.grid>.column:not(.row), 
-.ui.grid>.row>.column {
+.ui.grid > .column:not(.row), 
+.ui.grid > .row>.column {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.ui.items > .item .meta {
+    color: $textColor;
 }
 
 .widget {
@@ -46,10 +50,17 @@ h5 {
     }
 
     &-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         border-bottom: 1px solid $borderColor;
         padding-bottom: 20px;
         margin-bottom: 30px;
         position: relative;
+
+        .icon.badge {
+            color: $primaryColor;
+        }
         
         h1 { 
             font-family: $titleFont;
@@ -70,6 +81,14 @@ h5 {
             height: 2px;
             width: 30px;
             background-color: $primaryColor;
+        }
+    }
+
+    &-body {
+        .meta {
+            display: flex;
+            justify-content: space-between;
+            color: $textColor;
         }
     }
 }
