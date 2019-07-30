@@ -6,7 +6,7 @@
     }
 
     .ui.feed {
-        max-height: 554px;
+        max-height: 555px;
         overflow: auto;
         margin-bottom: 25px;
 
@@ -15,7 +15,6 @@
 
             & > .label {
                 align-self: unset;
-                line-height: 0.9;
                 img {
                     border-radius: 0;
                 }

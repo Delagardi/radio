@@ -3,7 +3,7 @@
 }
 
 .chat .ui.feed {
-  max-height: 554px;
+  max-height: 555px;
   overflow: auto;
   margin-bottom: 25px;
 }
@@ -14,7 +14,6 @@
 
 .chat .ui.feed > .event > .label {
   align-self: unset;
-  line-height: 0.9;
 }
 
 .chat .ui.feed > .event > .label img {

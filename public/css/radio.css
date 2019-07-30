@@ -219,17 +219,29 @@ h3 {
 }
 
 
+.upcoming-events .ui.grid > .column {
+  display: flex;
+}
+
+.upcoming-events .card {
+  flex: 1 1 auto;
+}
+
 .upcoming-events .card .content {
   padding: 24px 30px 30px;
 }
 
-.upcoming-events .card .label {
+.upcoming-events .card .event-labels {
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
+
+.upcoming-events .card .event-labels .label {
   font-size: 12px;
   line-height: 14px;
   color: #ffffff;
   background-color: #AAAAAA;
-  margin-top: 15px;
-  margin-bottom: 13px;
+  margin-bottom: 5px;
 }
 
 .upcoming-events .card > .image {
@@ -243,7 +255,7 @@ h3 {
 }
 
 .chat .ui.feed {
-  max-height: 554px;
+  max-height: 555px;
   overflow: auto;
   margin-bottom: 25px;
 }
@@ -254,7 +266,6 @@ h3 {
 
 .chat .ui.feed > .event > .label {
   align-self: unset;
-  line-height: 0.9;
 }
 
 .chat .ui.feed > .event > .label img {
