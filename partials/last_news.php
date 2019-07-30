@@ -20,12 +20,12 @@
                     <img src="<?= url('images/news/main_new.png') ?>">
                 </div>
                 <div class="content">
-                    <div class="meta">
+                    <div class="meta stats">
                         <div class="date">
                             <i class="calendar icon"></i>
                             <span>Apr 9, 2019</span>
                         </div>
-                        <div class="statistics">
+                        <div class="popularity">
                             <div class="item">
                                 <i class="comments icon"></i>
                                 <span>2</span>
@@ -53,19 +53,19 @@
             </div>
     
             <div class="column">
-                <div class="ui items unstackable">
+                <div class="ui items unstackable short-news">
                     <div class="item">
                         <div class="image">
                             <div class="ui primary label">foods</div>
                             <img src="<?= url('images/news/new1.png') ?>">
                         </div>
                         <div class="content">
-                            <div class="meta">
+                            <div class="meta stats">
                                 <div class="date">
                                     <i class="calendar icon"></i>
                                     <span>Apr 9, 2019</span>
                                 </div>
-                                <div class="statistics">
+                                <div class="popularity">
                                     <div class="item">
                                         <i class="comments icon"></i>
                                         <span>2</span>
@@ -90,12 +90,12 @@
                             <img src="<?= url('images/news/new3.png') ?>">
                         </div>
                         <div class="content">
-                            <div class="meta">
+                            <div class="meta stats">
                                 <div class="date">
                                     <i class="calendar icon"></i>
                                     <span>Apr 9, 2019</span>
                                 </div>
-                                <div class="statistics">
+                                <div class="popularity">
                                     <div class="item">
                                         <i class="comments icon"></i>
                                         <span>2</span>
@@ -120,12 +120,12 @@
                             <img src="<?= url('images/news/new4.png') ?>">
                         </div>
                         <div class="content">
-                            <div class="meta">
+                            <div class="meta stats">
                                 <div class="date">
                                     <i class="calendar icon"></i>
                                     <span>Apr 9, 2019</span>
                                 </div>
-                                <div class="statistics">
+                                <div class="popularity">
                                     <div class="item">
                                         <i class="comments icon"></i>
                                         <span>2</span>
@@ -150,12 +150,12 @@
                             <img src="<?= url('images/news/new2.png') ?>">
                         </div>
                         <div class="content">
-                            <div class="meta">
+                            <div class="meta stats">
                                 <div class="date">
                                     <i class="calendar icon"></i>
                                     <span>Apr 9, 2019</span>
                                 </div>
-                                <div class="statistics">
+                                <div class="popularity">
                                     <div class="item">
                                         <i class="comments icon"></i>
                                         <span>2</span>
@@ -180,12 +180,12 @@
                             <img src="<?= url('images/news/new5.png') ?>">
                         </div>
                         <div class="content">
-                            <div class="meta">
+                            <div class="meta stats">
                                 <div class="date">
                                     <i class="calendar icon"></i>
                                     <span>Apr 9, 2019</span>
                                 </div>
-                                <div class="statistics">
+                                <div class="popularity">
                                     <div class="item">
                                         <i class="comments icon"></i>
                                         <span>2</span>

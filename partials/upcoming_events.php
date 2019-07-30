@@ -13,7 +13,7 @@
                     <div class="content">
                         <span class="right floated likes">20</span>
                         <i class="right floated thumbs up icon"></i>
-                        <div class="title">EDM Festival</div>
+                        <h3>EDM Festival</h3>
                         <span class="ui label">
                             <i class="calendar icon"></i> Mar 26, 2019
                         </span>
@@ -34,7 +34,7 @@
                     <div class="content">
                         <span class="right floated likes">34</span>
                         <i class="right floated thumbs up icon"></i>
-                        <div class="title">Spring Break Camp</div>
+                        <h3>Spring Break Camp</h3>
                         <span class="ui label">
                             <i class="calendar icon"></i> Mar 30, 2019
                         </span>
@@ -55,7 +55,7 @@
                     <div class="content">
                         <span class="right floated likes">20</span>
                         <i class="right floated thumbs up icon"></i>
-                        <div class="title">EDM Festival</div>
+                        <h3>EDM Festival</h3>
                         <span class="ui label">
                             <i class="calendar icon"></i> Apr 14, 2019
                         </span>

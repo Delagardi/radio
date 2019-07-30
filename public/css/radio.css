@@ -20,8 +20,19 @@ h5 {
   font-family: "Poppins", sans-serif;
 }
 
+h2,
+h3,
+h4,
 h5 {
-  margin-top: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 .ui.grid {
@@ -41,6 +52,13 @@ h5 {
 
 .ui.items > .item .meta {
   color: #AAAAAA;
+}
+
+.ui.card {
+  border-radius: 0px;
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid #D1D1D1;
 }
 
 .widget {
@@ -91,6 +109,23 @@ h5 {
   display: flex;
   justify-content: space-between;
   color: #AAAAAA;
+  padding: 13px 0 10px;
+}
+
+.widget-body .meta.stats .popularity {
+  display: flex;
+  align-items: center;
+}
+
+.widget-body .meta.stats .popularity .item {
+  margin: 0 10px 0 0;
+  align-items: center;
+  font-size: 1em;
+  line-height: 1.16em;
+}
+
+.widget-body .meta.stats .popularity .item:last-of-type {
+  margin: 0;
 }
 
 
@@ -121,57 +156,29 @@ h5 {
   padding: 0 10px;
 }
 
-.last-news .widget-head .submenu-nav i {
-  cursor: pointer;
-}
-
-.last-news .widget-body .meta .statistics {
-  display: flex;
-  align-items: center;
-}
-
-.last-news .widget-body .meta .statistics .item {
-  margin: 0 10px 0 0;
-  align-items: center;
-  font-size: 12px;
-  line-height: 14px;
-}
-
-.last-news .widget-body .meta .statistics .item:last-of-type {
-  margin: 0;
-}
-
-.last-news .widget-body .meta .statistics .item i {
-  margin: 0 5px 0 0;
-  font-size: 11px;
-  line-height: 13px;
-}
-
 .last-news .widget-body .label {
   position: absolute;
   top: 10px;
   left: 8px;
 }
 
-.last-news .widget-body .items .item > .image + .content {
+.last-news .widget-body .items.short-news .item > .image + .content {
   padding-left: 10px;
 }
 
-.last-news .widget-body .items .item > .image {
+.last-news .widget-body .items.short-news .item > .image {
   width: 120px;
 }
 
-.last-news .widget-body .items .item .meta {
+.last-news .widget-body .items.short-news .item .meta {
   margin: 0 0 5px;
+  font-size: 12px;
+  padding: 0;
 }
 
 .last-news .widget-body .main-new label {
   top: 30px;
   left: 30px;
-}
-
-.last-news .widget-body .main-new .meta {
-  padding: 13px 0 10px;
 }
 
 
@@ -211,21 +218,6 @@ h5 {
   margin-right: 10px;
 }
 
-
-.upcoming-events .card {
-  border-radius: 0px;
-  width: 100%;
-  box-shadow: none;
-  border: 1px solid #D1D1D1;
-}
-
-.upcoming-events .card .title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #161618;
-  font-family: "Poppins", sans-serif;
-}
 
 .upcoming-events .card .content {
   padding: 24px 30px 30px;
@@ -318,5 +310,18 @@ h5 {
   margin-bottom: 0;
   margin-right: 25px;
   flex: 1 1 auto;
+}
+
+
+.latest-galleries .widget-head .arrows {
+  font-size: 20px;
+}
+
+.latest-galleries .card .content {
+  padding: 0 20px 13px;
+}
+
+.latest-galleries .card > .image {
+  border-radius: 0px !important;
 }
 

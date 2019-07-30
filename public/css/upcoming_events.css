@@ -1,18 +1,3 @@
-.upcoming-events .card {
-  border-radius: 0px;
-  width: 100%;
-  box-shadow: none;
-  border: 1px solid #D1D1D1;
-}
-
-.upcoming-events .card .title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #161618;
-  font-family: "Poppins", sans-serif;
-}
-
 .upcoming-events .card .content {
   padding: 24px 30px 30px;
 }

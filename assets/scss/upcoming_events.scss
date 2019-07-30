@@ -2,19 +2,6 @@
 
 .upcoming-events {
     .card {
-        border-radius: 0px;
-        width: 100%;
-        box-shadow: none;
-        border: 1px solid $borderColor;
-
-        .title {
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 30px;
-            color: $titleColor;
-            font-family: $titleFont;
-        }
-
         .content {
             padding: 24px 30px 30px;
         }

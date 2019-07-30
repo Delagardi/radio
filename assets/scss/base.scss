@@ -18,8 +18,16 @@ h1, h2, h3, h4, h5 {
     font-family: $titleFont;
 }
 
-h5 {
-    margin-top: 0;
+h2, h3, h4, h5 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 .ui.grid {
@@ -39,6 +47,13 @@ h5 {
 
 .ui.items > .item .meta {
     color: $textColor;
+}
+
+.ui.card {
+    border-radius: 0px;
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid $borderColor;
 }
 
 .widget {
@@ -89,6 +104,25 @@ h5 {
             display: flex;
             justify-content: space-between;
             color: $textColor;
+            padding: 13px 0 10px;
+
+            &.stats {
+                .popularity {
+                    display: flex;
+                    align-items: center;
+            
+                    .item {
+                        margin: 0 10px 0 0;
+                        align-items: center;
+                        font-size: 1em;
+                        line-height: 1.16em;
+            
+                        &:last-of-type {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }

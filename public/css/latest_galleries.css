@@ -1,0 +1,12 @@
+.latest-galleries .widget-head .arrows {
+  font-size: 20px;
+}
+
+.latest-galleries .card .content {
+  padding: 0 20px 13px;
+}
+
+.latest-galleries .card > .image {
+  border-radius: 0px !important;
+}
+

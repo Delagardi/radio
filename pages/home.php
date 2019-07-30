@@ -10,6 +10,7 @@
             <? include APP_DIR . '/partials/upcoming_events.php' ?>
             <? include APP_DIR . '/partials/most_viewed.php' ?>
             <? include APP_DIR . '/partials/chat.php' ?>
+            <? include APP_DIR . '/partials/latest_galleries.php' ?>
         </div>
         <? include APP_DIR . '/partials/footer.php' ?>
 

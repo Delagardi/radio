@@ -1,0 +1,19 @@
+@import './variables';
+
+.latest-galleries {
+    .widget-head {
+        .arrows {
+            font-size: 20px;
+        }
+    }
+    
+    .card {
+        .content {
+            padding: 0 20px 13px;
+        }
+
+        & > .image {
+            border-radius: 0px !important;
+        }
+    }
+}
