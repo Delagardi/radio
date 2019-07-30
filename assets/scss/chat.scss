@@ -1,0 +1,76 @@
+@import './variables';
+
+.chat {
+    .widget-head {
+        margin-bottom: 0;
+    }
+
+    .ui.feed {
+        max-height: 554px;
+        overflow: auto;
+        margin-bottom: 25px;
+
+        & > .event {
+            align-items: flex-end;
+
+            & > .label {
+                align-self: unset;
+                line-height: 0.9;
+                img {
+                    border-radius: 0;
+                }
+            }
+
+            & > .label + .content {
+                margin-top: 16px;
+                margin-bottom: 0;
+
+                .message {
+                    padding: 8px 15px;
+                    border: 1px solid $borderColor;
+                    border-radius: 5px 5px 5px 0; 
+                    display: inline-block;
+
+                    &.highlighted {
+                        background: rgba(252, 214, 81, 0.2);
+                        border-color: #FCD651;
+
+                        .admin {
+                            font-weight: bold;
+                            font-size: 7px;
+                            background-color: #E85343;
+                            text-transform: uppercase;
+                            color: $lightTextColor;
+                            line-height: 8px;
+                            padding: 1px 4px;
+                            margin-left: 5px;
+                            border-radius: 2px;
+                        }
+                    }
+
+                    .info {
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 10px;
+                        line-height: 12px;
+                    }
+                    
+                    .text {
+                        color: #161618;
+                    }
+                }
+            }
+        }
+    }
+
+    .form {
+        display: flex;
+        justify-content: space-between;
+
+        .field.input {
+            margin-bottom: 0;
+            margin-right: 25px;
+            flex: 1 1 auto;
+        }
+    }
+}

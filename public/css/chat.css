@@ -1,0 +1,74 @@
+.chat .widget-head {
+  margin-bottom: 0;
+}
+
+.chat .ui.feed {
+  max-height: 554px;
+  overflow: auto;
+  margin-bottom: 25px;
+}
+
+.chat .ui.feed > .event {
+  align-items: flex-end;
+}
+
+.chat .ui.feed > .event > .label {
+  align-self: unset;
+  line-height: 0.9;
+}
+
+.chat .ui.feed > .event > .label img {
+  border-radius: 0;
+}
+
+.chat .ui.feed > .event > .label + .content {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.chat .ui.feed > .event > .label + .content .message {
+  padding: 8px 15px;
+  border: 1px solid #D1D1D1;
+  border-radius: 5px 5px 5px 0;
+  display: inline-block;
+}
+
+.chat .ui.feed > .event > .label + .content .message.highlighted {
+  background: rgba(252, 214, 81, 0.2);
+  border-color: #FCD651;
+}
+
+.chat .ui.feed > .event > .label + .content .message.highlighted .admin {
+  font-weight: bold;
+  font-size: 7px;
+  background-color: #E85343;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 8px;
+  padding: 1px 4px;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+.chat .ui.feed > .event > .label + .content .message .info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.chat .ui.feed > .event > .label + .content .message .text {
+  color: #161618;
+}
+
+.chat .form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat .form .field.input {
+  margin-bottom: 0;
+  margin-right: 25px;
+  flex: 1 1 auto;
+}
+

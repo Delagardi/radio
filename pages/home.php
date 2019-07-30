@@ -9,6 +9,7 @@
             <? include APP_DIR . '/partials/last_news.php' ?>
             <? include APP_DIR . '/partials/upcoming_events.php' ?>
             <? include APP_DIR . '/partials/most_viewed.php' ?>
+            <? include APP_DIR . '/partials/chat.php' ?>
         </div>
         <? include APP_DIR . '/partials/footer.php' ?>
 
