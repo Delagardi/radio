@@ -56,7 +56,7 @@
                 <div class="ui items unstackable short-news">
                     <div class="item">
                         <div class="image">
-                            <div class="ui primary label">foods</div>
+                            <div class="ui primary mini label">foods</div>
                             <img src="<?= url('images/news/new1.png') ?>">
                         </div>
                         <div class="content">
@@ -86,7 +86,7 @@
                     
                     <div class="item">
                         <div class="image">
-                            <div class="ui primary label">tech</div>
+                            <div class="ui primary mini label">tech</div>
                             <img src="<?= url('images/news/new3.png') ?>">
                         </div>
                         <div class="content">
@@ -116,7 +116,7 @@
 
                     <div class="item">
                         <div class="image">
-                            <div class="ui primary label">travel</div>
+                            <div class="ui primary mini label">travel</div>
                             <img src="<?= url('images/news/new4.png') ?>">
                         </div>
                         <div class="content">
@@ -146,7 +146,7 @@
 
                     <div class="item">
                         <div class="image">
-                            <div class="ui primary label">racing</div>
+                            <div class="ui primary mini label">racing</div>
                             <img src="<?= url('images/news/new2.png') ?>">
                         </div>
                         <div class="content">
@@ -176,7 +176,7 @@
 
                     <div class="item">
                         <div class="image">
-                            <div class="ui primary label">life style</div>
+                            <div class="ui primary mini label">life style</div>
                             <img src="<?= url('images/news/new5.png') ?>">
                         </div>
                         <div class="content">
