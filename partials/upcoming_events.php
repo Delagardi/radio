@@ -8,7 +8,10 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/events/event1.png') ?>">
+                        <div class="ui placeholder" style="height:216px;">
+                            <div class="image"></div>
+                        </div>
+                        <img class="lazy-load" data-src="<?= url('images/events/event1.png') ?>">
                     </div>
                     <div class="content">
                         <span class="right floated likes">20</span>
@@ -31,7 +34,10 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/events/event2.png') ?>">
+                        <div class="ui placeholder" style="height:216px;">
+                            <div class="image"></div>
+                        </div>
+                        <img class="lazy-load" data-src="<?= url('images/events/event2.png') ?>">
                     </div>
                     <div class="content">
                         <span class="right floated likes">34</span>
@@ -54,7 +60,10 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/events/event3.png') ?>">
+                        <div class="ui placeholder" style="height:216px;">
+                            <div class="image"></div>
+                        </div>
+                        <img class="lazy-load" data-src="<?= url('images/events/event3.png') ?>">
                     </div>
                     <div class="content">
                         <span class="right floated likes">20</span>

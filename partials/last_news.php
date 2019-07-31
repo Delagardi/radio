@@ -17,7 +17,10 @@
             <div class="column main-new">
                 <div class="ui fluid image">
                     <div class="ui primary label">life style</div>
-                    <img src="<?= url('images/news/main_new.png') ?>">
+                    <div class="ui placeholder" style="width:100%; height:318px;">
+                        <div class="image"></div>
+                    </div>
+                    <img class="lazy-load" data-src="<?= url('images/news/main_new.png') ?>">
                 </div>
                 <div class="content">
                     <div class="meta stats">
@@ -57,7 +60,10 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary mini label">foods</div>
-                            <img src="<?= url('images/news/new1.png') ?>">
+                            <div class="ui placeholder" style="height:72px;">
+                                <div class="image"></div>
+                            </div>
+                            <img class="lazy-load" data-src="<?= url('images/news/new1.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta stats">
@@ -87,7 +93,10 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary mini label">tech</div>
-                            <img src="<?= url('images/news/new3.png') ?>">
+                            <div class="ui placeholder" style="height:72px;">
+                                <div class="image"></div>
+                            </div>
+                            <img class="lazy-load" data-src="<?= url('images/news/new3.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta stats">
@@ -117,7 +126,10 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary mini label">travel</div>
-                            <img src="<?= url('images/news/new4.png') ?>">
+                            <div class="ui placeholder" style="height:72px;">
+                                <div class="image"></div>
+                            </div>
+                            <img class="lazy-load" data-src="<?= url('images/news/new4.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta stats">
@@ -147,7 +159,10 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary mini label">racing</div>
-                            <img src="<?= url('images/news/new2.png') ?>">
+                            <div class="ui placeholder" style="height:72px;">
+                                <div class="image"></div>
+                            </div>
+                            <img class="lazy-load" data-src="<?= url('images/news/new2.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta stats">
@@ -177,7 +192,10 @@
                     <div class="item">
                         <div class="image">
                             <div class="ui primary mini label">life style</div>
-                            <img src="<?= url('images/news/new5.png') ?>">
+                            <div class="ui placeholder" style="height:72px;">
+                                <div class="image"></div>
+                            </div>
+                            <img class="lazy-load" data-src="<?= url('images/news/new5.png') ?>">
                         </div>
                         <div class="content">
                             <div class="meta stats">

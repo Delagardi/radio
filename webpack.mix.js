@@ -14,6 +14,7 @@ mix
     .copy('assets/lib/jquery/jquery.min.js', 'public/lib/jquery')
     .copyDirectory('assets/lib/semantic/dist/themes/default/assets/fonts', 'public/lib/semantic/themes/default/assets/fonts')
     .copyDirectory('assets/images', 'public/images')
+    .js('assets/js/core.js', 'public/js')
     .styles([
         'public/css/base.css',
         'public/css/last_news.css',
@@ -25,6 +26,6 @@ mix
         'public/css/latest_galleries.css',
     ], 'public/css/radio.css')
     .scripts([
-        'public/css/base.js'
+        'public/js/core.js'
     ], 'public/js/radio.js') 
 ;

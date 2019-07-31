@@ -11,7 +11,10 @@
         <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/galleries/gallery1.png') ?>">
+                        <div class="ui placeholder" style="height:216px;">
+                            <div class="image"></div>
+                        </div>
+                        <img class="lazy-load" data-src="<?= url('images/galleries/gallery1.png') ?>">
                     </div>
                     <div class="content">
                         <div class="meta stats">
@@ -41,7 +44,10 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/galleries/gallery2.png') ?>">
+                        <div class="ui placeholder" style="height:216px;">  
+                            <div class="image"></div>
+                        </div>
+                        <img class="lazy-load" data-src="<?= url('images/galleries/gallery2.png') ?>">
                     </div>
                     <div class="content">
                         <div class="meta stats">
@@ -71,7 +77,10 @@
             <div class="column">
                 <div class="ui card">
                     <div class="image">
-                        <img src="<?= url('images/galleries/gallery3.png') ?>">
+                        <div class="ui placeholder" style="height:216px;">
+                            <div class="image"></div>
+                        </div>
+                        <img class="lazy-load" data-src="<?= url('images/galleries/gallery3.png') ?>">
                     </div>
                     <div class="content">
                         <div class="meta stats">

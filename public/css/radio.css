@@ -180,6 +180,10 @@ h3 {
   padding: 0;
 }
 
+.last-news .widget-body .main-new .ui.placeholder {
+  max-width: 100%;
+}
+
 .last-news .widget-body .main-new .label {
   top: 30px;
   left: 30px;

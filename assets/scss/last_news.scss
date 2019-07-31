@@ -52,6 +52,10 @@
     }
 
     .main-new {
+      .ui.placeholder {
+        max-width: 100%;
+      }
+
       .label {
         top: 30px; 
         left: 30px;
