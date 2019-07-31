@@ -45,7 +45,7 @@
   padding: 0;
 }
 
-.last-news .widget-body .main-new label {
+.last-news .widget-body .main-new .label {
   top: 30px;
   left: 30px;
 }

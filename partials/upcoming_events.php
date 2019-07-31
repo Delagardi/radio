@@ -15,10 +15,10 @@
                         <i class="right floated thumbs up icon"></i>
                         <h3>EDM Festival</h3>
                         <div class="event-labels">
-                            <span class="ui label">
+                            <span class="ui inverted label">
                                 <i class="calendar icon"></i> Mar 26, 2019
                             </span>
-                            <span class="ui label">
+                            <span class="ui inverted label">
                                 <i class="clock icon"></i> 08:00
                             </span>
                         </div>
@@ -38,10 +38,10 @@
                         <i class="right floated thumbs up icon"></i>
                         <h3>Spring Break Camp</h3>
                         <div class="event-labels">
-                            <span class="ui label">
+                            <span class="ui inverted label">
                                 <i class="calendar icon"></i> Mar 30, 2019
                             </span>
-                            <span class="ui label">
+                            <span class="ui inverted label">
                                 <i class="clock icon"></i> 16:00
                             </span>
                         </div>
@@ -61,10 +61,10 @@
                         <i class="right floated thumbs up icon"></i>
                         <h3>EDM Festival</h3>
                         <div class="event-labels">
-                            <span class="ui label">
+                            <span class="ui inverted label">
                                 <i class="calendar icon"></i> Apr 14, 2019
                             </span>
-                            <span class="ui label">
+                            <span class="ui inverted label">
                                 <i class="clock icon"></i> 18:30
                             </span>
                         </div>

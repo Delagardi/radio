@@ -176,7 +176,7 @@ h3 {
   padding: 0;
 }
 
-.last-news .widget-body .main-new label {
+.last-news .widget-body .main-new .label {
   top: 30px;
   left: 30px;
 }
@@ -234,14 +234,6 @@ h3 {
 .upcoming-events .card .event-labels {
   margin-top: 15px;
   margin-bottom: 13px;
-}
-
-.upcoming-events .card .event-labels .label {
-  font-size: 12px;
-  line-height: 14px;
-  color: #ffffff;
-  background-color: #AAAAAA;
-  margin-bottom: 5px;
 }
 
 .upcoming-events .card > .image {

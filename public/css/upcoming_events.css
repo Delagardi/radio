@@ -15,14 +15,6 @@
   margin-bottom: 13px;
 }
 
-.upcoming-events .card .event-labels .label {
-  font-size: 12px;
-  line-height: 14px;
-  color: #ffffff;
-  background-color: #AAAAAA;
-  margin-bottom: 5px;
-}
-
 .upcoming-events .card > .image {
   border-radius: 0px !important;
 }
