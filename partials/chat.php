@@ -1,4 +1,4 @@
-<div class="widget chat bordered">
+<div class="ui segment widget chat">
     <div class="widget-head">
         <h1>Chat</h1>
         <i class="comments outline icon badge"></i>

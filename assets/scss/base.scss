@@ -56,12 +56,20 @@ h3 {
     border: 1px solid $borderColor;
 }
 
-.widget {
-    margin-bottom: 40px;
-
-    &.bordered {
-        border: 1px solid $borderColor;
+.widget {        
+    &.ui.segment {
+        border-radius: 0;
+        box-shadow: none;
         padding: 20px 28px;
+        margin-top: 40px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &.basic {
+            padding: 0;
+        }
     }
 
     &-head {

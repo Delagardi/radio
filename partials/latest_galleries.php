@@ -1,4 +1,4 @@
-<div class="widget latest-galleries">
+<div class="ui segment basic widget latest-galleries">
     <div class="widget-head">
         <h1>Latest Galleries</h1>
         <div class="arrows">
@@ -73,29 +73,28 @@
                     <div class="image">
                         <img src="<?= url('images/galleries/gallery3.png') ?>">
                     </div>
-                        <div class="content">
-                            <div class="meta stats">
-                                <div class="date">
-                                    <i class="calendar icon"></i>
-                                    <span>Mar 17, 2019</span>
+                    <div class="content">
+                        <div class="meta stats">
+                            <div class="date">
+                                <i class="calendar icon"></i>
+                                <span>Mar 17, 2019</span>
+                            </div>
+                            <div class="popularity">
+                                <div class="item">
+                                    <i class="comments icon"></i>
+                                    <span>37</span>
                                 </div>
-                                <div class="popularity">
-                                    <div class="item">
-                                        <i class="comments icon"></i>
-                                        <span>37</span>
-                                    </div>
-                                    <div class="item">
-                                        <i class="thumbs up icon"></i>
-                                        <span>20</span>
-                                    </div>
-                                    <div class="item">
-                                        <i class="eye icon"></i>
-                                        <span>18</span>
-                                    </div>
+                                <div class="item">
+                                    <i class="thumbs up icon"></i>
+                                    <span>20</span>
+                                </div>
+                                <div class="item">
+                                    <i class="eye icon"></i>
+                                    <span>18</span>
                                 </div>
                             </div>
-                            <h3>Radio Museum Opening</h3>
                         </div>
+                        <h3>Radio Museum Opening</h3>
                     </div>
                 </div>
             </div>

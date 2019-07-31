@@ -1,4 +1,4 @@
-<div class="widget most-viewed bordered">
+<div class="ui segment widget most-viewed">
     <div class="widget-head">
         <h1>Most viewed</h1>
         <i class="file text outline icon badge"></i>

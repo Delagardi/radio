@@ -61,13 +61,19 @@ h3 {
   border: 1px solid #D1D1D1;
 }
 
-.widget {
-  margin-bottom: 40px;
+.widget.ui.segment {
+  border-radius: 0;
+  box-shadow: none;
+  padding: 20px 28px;
+  margin-top: 40px;
 }
 
-.widget.bordered {
-  border: 1px solid #D1D1D1;
-  padding: 20px 28px;
+.widget.ui.segment:first-child {
+  margin-top: 0;
+}
+
+.widget.ui.segment.basic {
+  padding: 0;
 }
 
 .widget-head {

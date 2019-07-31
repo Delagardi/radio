@@ -1,4 +1,4 @@
-<div class="widget last-news bordered">
+<div class="ui segment widget last-news">
     <div class="widget-head">
         <h1>Last news</h1>
         <div class="submenu">
