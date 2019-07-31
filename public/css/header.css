@@ -2,7 +2,96 @@
   margin-bottom: 54px;
 }
 
-.header .ui.segment {
+.header .ui.label {
   border-radius: 0;
+  white-space: nowrap;
+}
+
+.header .menu.top-menu {
+  box-shadow: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 0;
+}
+
+.header .menu.top-menu .item.date {
+  color: #AAAAAA;
+}
+
+.header .menu.top-menu .item > img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.header .navigation .status {
+  display: flex;
+  align-items: center;
+}
+
+.header .navigation .ui.horizontal.segments {
+  margin: 0;
+}
+
+.header .navigation .ui.horizontal.segments > .segment {
+  border-left: none;
+  padding: 0;
+}
+
+.header .navigation .ui.horizontal.segments > .segment.live-status {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  align-items: flex-end;
+  line-height: 0;
+}
+
+.header .navigation .ui.horizontal.segments > .segment .song-info {
+  height: 50px;
+  padding: 5px 10px;
+}
+
+.header .navigation .ui.horizontal.segments > .segment .song-info h5,
+.header .navigation .ui.horizontal.segments > .segment .song-info .artist {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.header .navigation .ui.horizontal.segments > .segment .buttons {
+  padding: 15px 0;
+}
+
+.header .navigation .horizontal-nav {
+  border-radius: 0;
+}
+
+.header .navigation .horizontal-nav .item {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  line-height: 19px;
+  border-radius: 0;
+}
+
+.header .navigation .horizontal-nav .item:first-child {
+  padding-left: 20px;
+}
+
+.header .navigation .horizontal-nav .item.active {
+  border-bottom: 3px solid #3389FF;
+  background: inherit;
+}
+
+.header .navigation .horizontal-nav .right.menu .button {
+  border-radius: 0;
+  padding-left: 80px !important;
+}
+
+.header .navigation .horizontal-nav .right.menu .button .play.icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 

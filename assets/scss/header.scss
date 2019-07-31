@@ -1,7 +1,99 @@
+@import './variables';
+
 .header {
     margin-bottom: 54px;
 
-    .ui.segment {
+    .ui.label {
         border-radius: 0;
+        white-space: nowrap;
+    }
+
+    .menu.top-menu {
+        box-shadow: none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-radius: 0;
+
+        .item {
+            &.date {
+                color: $textColor;
+            }
+
+            > img {
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .navigation {
+        .status {
+            display: flex;
+            align-items: center;
+        }
+
+        .ui.horizontal.segments {
+            margin: 0;
+            > .segment {
+                border-left: none;
+                padding: 0;
+
+                &.live-status {
+                    display: flex;
+                    justify-content: flex-end;
+                    text-align: right;
+                    align-items: flex-end;
+                    line-height: 0;
+                }
+
+                .song-info {
+                    height: 50px;
+                    padding: 5px 10px;
+
+                    h5, .artist {
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                }
+
+                .buttons {
+                    padding: 15px 0;
+                }
+            }
+        }
+
+        .horizontal-nav {
+            border-radius: 0;
+
+            .item {
+                font-family: $titleFont;
+                text-transform: uppercase;
+                padding: 20px 10px;
+                line-height: 19px;
+                border-radius: 0;
+                &:first-child {
+                    padding-left: 20px;
+                }
+
+                &.active {
+                    border-bottom: 3px solid $primaryColor;
+                    background: inherit;
+                }
+            }
+
+            .right.menu .button {
+                border-radius: 0;
+                padding-left: 80px !important;
+                
+                .play.icon {
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
     }
 }
