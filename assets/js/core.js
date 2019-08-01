@@ -13,4 +13,23 @@ $(() => {
     $('.ui.embed').embed();
     $('.ui.slider').slider();
     $('.ui.sidebar').sidebar('setting', 'transition', 'overlay');
+    $('#opinion1').progress({
+        showActivity: false
+      });
+      $('#opinion2').progress({
+        showActivity: false
+      });
+      $('#opinion3').progress({
+        showActivity: false
+      });
+      $('#opinion4').progress({
+        showActivity: false
+      });
+      $('#opinion5').progress({
+        showActivity: false
+      });
+    $('#submit-vote').click(function () {
+        $('.survey-radiobuttons').replaceWith($('.survey-results'));
+        $('.survey-results').css("display","block");
+    });
 });

@@ -106,6 +106,25 @@ $(function () {
   $('.ui.embed').embed();
   $('.ui.slider').slider();
   $('.ui.sidebar').sidebar('setting', 'transition', 'overlay');
+  $('#opinion1').progress({
+    showActivity: false
+  });
+  $('#opinion2').progress({
+    showActivity: false
+  });
+  $('#opinion3').progress({
+    showActivity: false
+  });
+  $('#opinion4').progress({
+    showActivity: false
+  });
+  $('#opinion5').progress({
+    showActivity: false
+  });
+  $('#submit-vote').click(function () {
+    $('.survey-radiobuttons').replaceWith($('.survey-results'));
+    $('.survey-results').css("display", "block");
+  });
 });
 
 /***/ }),
@@ -260,20 +279,20 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/js/core.js */"./assets/js/core.js");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/base.scss */"./assets/scss/base.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/last_news.scss */"./assets/scss/last_news.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/header.scss */"./assets/scss/header.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/footer.scss */"./assets/scss/footer.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/upcoming_events.scss */"./assets/scss/upcoming_events.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/most_viewed.scss */"./assets/scss/most_viewed.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/chat.scss */"./assets/scss/chat.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/survey.scss */"./assets/scss/survey.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_galleries.scss */"./assets/scss/latest_galleries.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/follow_us.scss */"./assets/scss/follow_us.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/shows.scss */"./assets/scss/shows.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_videos.scss */"./assets/scss/latest_videos.scss");
-module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\js\core.js */"./assets/js/core.js");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\base.scss */"./assets/scss/base.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\last_news.scss */"./assets/scss/last_news.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\header.scss */"./assets/scss/header.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\footer.scss */"./assets/scss/footer.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\upcoming_events.scss */"./assets/scss/upcoming_events.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\most_viewed.scss */"./assets/scss/most_viewed.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\chat.scss */"./assets/scss/chat.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\survey.scss */"./assets/scss/survey.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\latest_galleries.scss */"./assets/scss/latest_galleries.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\follow_us.scss */"./assets/scss/follow_us.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\shows.scss */"./assets/scss/shows.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\latest_videos.scss */"./assets/scss/latest_videos.scss");
+module.exports = __webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\scss\sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
 
 
 /***/ })
@@ -390,7 +409,7 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/js/homepage.js */"./assets/js/homepage.js");
+module.exports = __webpack_require__(/*! E:\Programming\Test\BeeJee\Work\radio\radio\assets\js\homepage.js */"./assets/js/homepage.js");
 
 
 /***/ })
