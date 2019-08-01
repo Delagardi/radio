@@ -11,6 +11,7 @@
             <? include APP_DIR . '/partials/most_viewed.php' ?>
             <? include APP_DIR . '/partials/chat.php' ?>
             <? include APP_DIR . '/partials/latest_galleries.php' ?>
+            <? include APP_DIR . '/partials/follow_us.php' ?>
         </div>
         <? include APP_DIR . '/partials/footer.php' ?>
 

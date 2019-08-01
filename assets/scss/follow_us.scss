@@ -1,0 +1,55 @@
+.follow-us {
+    .widget-body {
+        .social-buttons {
+            max-width: 320px;
+            margin: 0 auto;
+
+            .button {
+                border-radius: 2px;
+                margin-bottom: 20px;
+                padding: 9px 19px;
+                text-align: left;
+                display: flex;
+                align-items: center;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &.dribbble {
+                    background: #F65A91;
+                }
+
+                &.vimeo {
+                    background: #2EBEE7;
+                }
+
+                &.soundcloud {
+                    background: #FF722A;
+                }
+
+                &.behance {
+                    background: #156EFD;
+                }
+
+                &.github {
+                    background: #3786C4;
+                }
+
+                .ui.statistic {
+                    margin: 0 0 0 10px;
+                    .value {
+                        font-size: 14px !important;
+                        text-align: left;
+                    }
+
+                    .label {
+                        font-size: 10px;
+                        text-transform: none;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

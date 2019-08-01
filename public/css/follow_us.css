@@ -1,0 +1,53 @@
+.follow-us .widget-body .social-buttons {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.follow-us .widget-body .social-buttons .button {
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 9px 19px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.follow-us .widget-body .social-buttons .button:last-child {
+  margin-bottom: 0;
+}
+
+.follow-us .widget-body .social-buttons .button.dribbble {
+  background: #F65A91;
+}
+
+.follow-us .widget-body .social-buttons .button.vimeo {
+  background: #2EBEE7;
+}
+
+.follow-us .widget-body .social-buttons .button.soundcloud {
+  background: #FF722A;
+}
+
+.follow-us .widget-body .social-buttons .button.behance {
+  background: #156EFD;
+}
+
+.follow-us .widget-body .social-buttons .button.github {
+  background: #3786C4;
+}
+
+.follow-us .widget-body .social-buttons .button .ui.statistic {
+  margin: 0 0 0 10px;
+}
+
+.follow-us .widget-body .social-buttons .button .ui.statistic .value {
+  font-size: 14px !important;
+  text-align: left;
+}
+
+.follow-us .widget-body .social-buttons .button .ui.statistic .label {
+  font-size: 10px;
+  text-transform: none;
+  text-align: left;
+}
+
