@@ -35,32 +35,29 @@
 
         .ui.horizontal.segments {
             margin: 0;
-            > .segment {
-                border-left: none;
-                padding: 0;
 
-                &.live-status {
-                    display: flex;
-                    justify-content: flex-end;
-                    text-align: right;
-                    align-items: flex-end;
-                    line-height: 0;
+            .live-status {
+                display: flex;
+                justify-content: flex-end;
+                text-align: right;
+                align-items: flex-end;
+                line-height: 0;
+            }
+
+            .song-info {
+                height: 50px;
+                width: 270px;
+                padding: 5px 10px;
+
+                h5, .artist {
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
                 }
+            }
 
-                .song-info {
-                    height: 50px;
-                    padding: 5px 10px;
-
-                    h5, .artist {
-                        white-space: nowrap;
-                        text-overflow: ellipsis;
-                        overflow: hidden;
-                    }
-                }
-
-                .buttons {
-                    padding: 15px 0;
-                }
+            .buttons {
+                padding: 15px 0;
             }
         }
 

@@ -1,5 +1,5 @@
-<div class="ui segment widget last-news">
-    <div class="widget-head">
+<div class="ui segment padded widget last-news">
+    <div class="widget-head ui dividing header">
         <h1>Last news</h1>
         <div class="submenu">
             <a class="submenu-link active" href="#">All</a>

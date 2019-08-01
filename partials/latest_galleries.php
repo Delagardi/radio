@@ -1,5 +1,5 @@
-<div class="ui segment basic widget latest-galleries">
-    <div class="widget-head">
+<div class="ui segment fitted basic widget latest-galleries">
+    <div class="widget-head ui dividing header">
         <h1>Latest Galleries</h1>
         <div class="arrows">
             <i class="caret square left outline icon"></i>

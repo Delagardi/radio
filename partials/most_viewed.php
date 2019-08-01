@@ -1,5 +1,5 @@
-<div class="ui segment widget most-viewed">
-    <div class="widget-head">
+<div class="ui segment padded widget most-viewed">
+    <div class="widget-head ui dividing header">
         <h1>Most viewed</h1>
         <i class="file text outline icon badge"></i>
     </div>

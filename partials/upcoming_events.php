@@ -1,5 +1,5 @@
-<div class="ui segment basic widget upcoming-events">
-    <div class="widget-head">
+<div class="ui segment fitted basic widget upcoming-events">
+    <div class="widget-head ui dividing header">
         <h1>Upcoming Events</h1>
         <i class="calendar outline icon badge"></i>
     </div>

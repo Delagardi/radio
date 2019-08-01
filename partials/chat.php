@@ -1,5 +1,5 @@
-<div class="ui segment widget chat">
-    <div class="widget-head">
+<div class="ui segment padded widget chat">
+    <div class="widget-head ui dividing header">
         <h1>Chat</h1>
         <i class="comments outline icon badge"></i>
     </div>

@@ -60,29 +60,26 @@ h3 {
     &.ui.segment {
         border-radius: 0;
         box-shadow: none;
-        padding: 20px 28px;
+        padding-left: 28px;
+        padding-right: 28px;
         margin-top: 40px;
 
         &:first-child {
             margin-top: 0;
         }
-
-        &.basic {
-            padding: 0;
-        }
     }
 
-    &-head {
+    &-head.dividing.header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid $borderColor;
         padding-bottom: 20px;
         margin-bottom: 30px;
         position: relative;
 
         .icon.badge {
             color: $primaryColor;
+            font-size: 1em;
         }
         
         h1 { 

@@ -33,12 +33,7 @@
   margin: 0;
 }
 
-.header .navigation .ui.horizontal.segments > .segment {
-  border-left: none;
-  padding: 0;
-}
-
-.header .navigation .ui.horizontal.segments > .segment.live-status {
+.header .navigation .ui.horizontal.segments .live-status {
   display: flex;
   justify-content: flex-end;
   text-align: right;
@@ -46,19 +41,20 @@
   line-height: 0;
 }
 
-.header .navigation .ui.horizontal.segments > .segment .song-info {
+.header .navigation .ui.horizontal.segments .song-info {
   height: 50px;
+  width: 270px;
   padding: 5px 10px;
 }
 
-.header .navigation .ui.horizontal.segments > .segment .song-info h5,
-.header .navigation .ui.horizontal.segments > .segment .song-info .artist {
+.header .navigation .ui.horizontal.segments .song-info h5,
+.header .navigation .ui.horizontal.segments .song-info .artist {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-.header .navigation .ui.horizontal.segments > .segment .buttons {
+.header .navigation .ui.horizontal.segments .buttons {
   padding: 15px 0;
 }
 
