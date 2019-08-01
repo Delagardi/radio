@@ -101,6 +101,9 @@ $(function () {
   }).on('load', function (e) {
     $(this).prev('.placeholder').remove();
   });
+  $('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle');
+  $('.ui.slider').slider();
+  $('.ui.dropdown').dropdown();
 });
 
 /***/ }),
@@ -182,6 +185,17 @@ $(function () {
 
 /***/ }),
 
+/***/ "./assets/scss/sidebar_radio.scss":
+/*!****************************************!*\
+  !*** ./assets/scss/sidebar_radio.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./assets/scss/upcoming_events.scss":
 /*!******************************************!*\
   !*** ./assets/scss/upcoming_events.scss ***!
@@ -194,21 +208,22 @@ $(function () {
 /***/ }),
 
 /***/ 0:
-/*!************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/latest_galleries.scss ***!
-  \************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/latest_galleries.scss ./assets/scss/sidebar_radio.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/js/core.js */"./assets/js/core.js");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/base.scss */"./assets/scss/base.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/last_news.scss */"./assets/scss/last_news.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/header.scss */"./assets/scss/header.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/footer.scss */"./assets/scss/footer.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/upcoming_events.scss */"./assets/scss/upcoming_events.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/most_viewed.scss */"./assets/scss/most_viewed.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/chat.scss */"./assets/scss/chat.scss");
-module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_galleries.scss */"./assets/scss/latest_galleries.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/js/core.js */"./assets/js/core.js");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/base.scss */"./assets/scss/base.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/last_news.scss */"./assets/scss/last_news.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/header.scss */"./assets/scss/header.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/footer.scss */"./assets/scss/footer.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/upcoming_events.scss */"./assets/scss/upcoming_events.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/most_viewed.scss */"./assets/scss/most_viewed.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/chat.scss */"./assets/scss/chat.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/latest_galleries.scss */"./assets/scss/latest_galleries.scss");
+module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_golubev/radio/assets/scss/sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
 
 
 /***/ })

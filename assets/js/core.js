@@ -6,4 +6,8 @@ $(() => {
     }).on('load', function(e) {
         $(this).prev('.placeholder').remove(); 
     });
+
+    $('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle')
+    $('.ui.slider').slider();
+    $('.ui.dropdown').dropdown();
 });

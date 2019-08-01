@@ -1,0 +1,237 @@
+.sidebar-radio {
+  background: #ffffff !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-radio h5 {
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.sidebar-radio .card {
+  border: 0;
+}
+
+.sidebar-radio .card > .content {
+  flex-grow: 0;
+}
+
+.sidebar-radio .menu {
+  margin: 0;
+  height: 40px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar-radio .menu > .indicator {
+  margin: 10px 0 10px 10px;
+  border-radius: 0;
+  font-size: 12px;
+  padding: 3px 8px;
+  line-height: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.sidebar-radio .menu > .time {
+  padding: 3px 7px;
+  margin: 10px 0px 10px 10px;
+  border-radius: 0;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+.sidebar-radio .menu > .right.menu > .ui.icon {
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  border-left: 1px solid #E5E5E5;
+  margin: 0;
+  height: 100%;
+  padding: 13px 0 14px;
+  width: 41px;
+}
+
+.sidebar-radio .player {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(22, 22, 24, 0.384) 100%);
+  mix-blend-mode: normal;
+  height: 220px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sidebar-radio .player > .title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 34px 60px 0;
+  word-spacing: 1px;
+}
+
+.sidebar-radio .player > .artist {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  line-height: 18px;
+}
+
+.sidebar-radio .player .play-btn {
+  margin-top: 20px;
+}
+
+.sidebar-radio .channel-name {
+  padding: 4px 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar-radio .channel-name > img {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 7px;
+}
+
+.sidebar-radio .controls {
+  padding: 3.5px 3px 0;
+  margin: 0;
+}
+
+.sidebar-radio .controls > .quality > .quality-dropdown,
+.sidebar-radio .controls .volume > .sidebar-volume {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  margin-top: 4px;
+  min-width: 100%;
+}
+
+.sidebar-radio .controls > .quality {
+  padding-right: 20px !important;
+}
+
+.sidebar-radio .controls > .quality > .quality-dropdown {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7A7A7A;
+  padding: 7px 8px 7px 14px;
+  min-height: 30px;
+  margin-top: 6px;
+}
+
+.sidebar-radio .controls > .quality > .quality-dropdown > .menu {
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  font-family: "Lato", sans-serif;
+  height: auto;
+}
+
+.sidebar-radio .controls > .quality > .quality-dropdown > .menu > .item {
+  padding: 7px 8px 7px 14px !important;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.sidebar-radio .controls > .volume {
+  padding-left: 0 !important;
+}
+
+.sidebar-radio .controls > .volume > .sidebar-volume {
+  padding: 7px 12px 7px 12px;
+  margin-top: 6px;
+}
+
+.sidebar-radio .controls > .volume > .sidebar-volume > .inner > .track {
+  background: #D1D1D1;
+}
+
+.sidebar-radio .controls > .volume > .sidebar-volume > .inner > .track-fill {
+  background: #3389FF;
+}
+
+.sidebar-radio .controls > .volume > .sidebar-volume > .inner > .thumb {
+  background: #1565D2;
+}
+
+.sidebar-radio .description {
+  font-size: 12px;
+  line-height: 16px;
+  color: #7A7A7A !important;
+  padding: 20px 16px 0;
+}
+
+.sidebar-radio .contacts {
+  margin: 0px;
+  padding: 13px 16px 0 16px;
+}
+
+.sidebar-radio .contacts .list {
+  border-top: 0 !important;
+}
+
+.sidebar-radio .contacts .list > .item {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7A7A7A;
+  padding: 0 !important;
+}
+
+.sidebar-radio .contacts .list > .item:not(:first-child) {
+  margin-left: 12px;
+}
+
+.sidebar-radio .broadcasters {
+  padding: 8px 10px 5px 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar-radio .broadcasters .list {
+  margin: 22px 0 0 0;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.sidebar-radio .broadcasters .list::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.sidebar-radio .broadcasters .list::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+
+.sidebar-radio .broadcasters .list .item {
+  padding: 15px 0;
+  margin-right: 13px;
+}
+
+.sidebar-radio .broadcasters .list .item:first-child {
+  padding-top: 0;
+}
+
+.sidebar-radio .broadcasters .list .item > img {
+  width: 34px;
+  height: 34px;
+}
+
+.sidebar-radio .broadcasters .list .item > .content {
+  font-family: "Lato", sans-serif;
+  margin-left: 7px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7A7A7A;
+}
+

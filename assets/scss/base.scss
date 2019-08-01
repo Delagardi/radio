@@ -56,6 +56,15 @@ h3 {
     border: 1px solid $borderColor;
 }
 
+.ui.visible.wide.right.sidebar~.fixed, .ui.visible.wide.right.sidebar~.pusher {
+    -webkit-transform: translate3d(-360px,0,0);
+    transform: translate3d(-360px,0,0);
+}
+
+.ui.wide.left.sidebar, .ui.wide.right.sidebar {
+    width: 360px;
+}
+
 .widget {        
     &.ui.segment {
         border-radius: 0;
