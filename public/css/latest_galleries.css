@@ -10,3 +10,7 @@
   border-radius: 0px !important;
 }
 
+.latest-galleries .card .meta.stats {
+  padding: 13px 0 10px;
+}
+

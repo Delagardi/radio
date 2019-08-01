@@ -10,6 +10,7 @@ mix
     .sass('assets/scss/chat.scss', 'public/css/')
     .sass('assets/scss/latest_galleries.scss', 'public/css/')
     .sass('assets/scss/follow_us.scss', 'public/css/')
+    .sass('assets/scss/shows.scss', 'public/css/')
     .copy('assets/lib/semantic/dist/semantic.min.css', 'public/lib/semantic/')
     .copy('assets/lib/semantic/dist/semantic.min.js', 'public/lib/semantic/')
     .copy('assets/lib/jquery/jquery.min.js', 'public/lib/jquery')
@@ -26,6 +27,7 @@ mix
         'public/css/chat.css',
         'public/css/latest_galleries.css',
         'public/css/follow_us.css',
+        'public/css/shows.css',
     ], 'public/css/radio.css')
     .scripts([
         'public/js/core.js'

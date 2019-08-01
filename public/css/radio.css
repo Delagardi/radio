@@ -73,7 +73,7 @@ h3 {
   margin-top: 0;
 }
 
-.widget-head.dividing.header {
+.widget .widget-head.dividing.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,12 +82,12 @@ h3 {
   position: relative;
 }
 
-.widget-head.dividing.header .icon.badge {
+.widget .widget-head.dividing.header .icon.badge {
   color: #3389FF;
   font-size: 1em;
 }
 
-.widget-head.dividing.header h1 {
+.widget .widget-head.dividing.header h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -97,7 +97,7 @@ h3 {
   margin-bottom: 0;
 }
 
-.widget-head.dividing.header:after {
+.widget .widget-head.dividing.header:after {
   content: "";
   display: block;
   position: absolute;
@@ -108,26 +108,29 @@ h3 {
   background-color: #3389FF;
 }
 
-.widget-body .meta {
-  display: flex;
-  justify-content: space-between;
+.widget .widget-body .ui .meta {
   color: #AAAAAA;
-  padding: 13px 0 10px;
+  margin-top: 0;
 }
 
-.widget-body .meta.stats .popularity {
+.widget .widget-body .ui .meta.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget .widget-body .ui .meta.stats .popularity {
   display: flex;
   align-items: center;
 }
 
-.widget-body .meta.stats .popularity .item {
+.widget .widget-body .ui .meta.stats .popularity .item {
   margin: 0 10px 0 0;
   align-items: center;
   font-size: 1em;
   line-height: 1.16em;
 }
 
-.widget-body .meta.stats .popularity .item:last-of-type {
+.widget .widget-body .ui .meta.stats .popularity .item:last-of-type {
   margin: 0;
 }
 
@@ -172,9 +175,8 @@ h3 {
 }
 
 .last-news .widget-body .items.short-news .item .meta {
-  margin: 0 0 5px;
+  margin-bottom: 5px;
   font-size: 12px;
-  padding: 0;
 }
 
 .last-news .widget-body .main-new .ui.placeholder {
@@ -184,6 +186,10 @@ h3 {
 .last-news .widget-body .main-new .label {
   top: 30px;
   left: 30px;
+}
+
+.last-news .widget-body .main-new .meta.stats {
+  padding: 13px 0 10px;
 }
 
 
@@ -419,6 +425,10 @@ h3 {
   border-radius: 0px !important;
 }
 
+.latest-galleries .card .meta.stats {
+  padding: 13px 0 10px;
+}
+
 
 .follow-us .widget-body .social-buttons {
   max-width: 320px;
@@ -471,5 +481,43 @@ h3 {
   font-size: 10px;
   text-transform: none;
   text-align: left;
+}
+
+
+.shows .ui.list {
+  margin-left: 5px;
+  border-left: 2px solid #D1D1D1;
+}
+
+.shows .ui.list .item {
+  margin-left: -6px;
+  margin-bottom: 10px;
+}
+
+.shows .ui.list .item:first-child > .icon {
+  top: -4px;
+  position: relative;
+}
+
+.shows .ui.list .item:first-child > .icon:before {
+  background: #ffffff !important;
+}
+
+.shows .ui.list .item > .icon {
+  font-size: 8px;
+}
+
+.shows .ui.list .item .meta {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.shows .ui.list .item h5 .artist {
+  color: #AAAAAA;
+  font-weight: normal;
+}
+
+.shows .ui.list .item h5 .artist:before {
+  content: " | ";
 }
 

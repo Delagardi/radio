@@ -69,7 +69,7 @@ h3 {
         }
     }
 
-    &-head.dividing.header {
+    & .widget-head.dividing.header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -104,14 +104,15 @@ h3 {
         }
     }
 
-    &-body {
-        .meta {
-            display: flex;
-            justify-content: space-between;
+    & .widget-body {
+        .ui .meta {
             color: $textColor;
-            padding: 13px 0 10px;
+            margin-top: 0;
 
             &.stats {
+                display: flex;
+                justify-content: space-between;
+
                 .popularity {
                     display: flex;
                     align-items: center;

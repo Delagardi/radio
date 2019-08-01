@@ -1,0 +1,39 @@
+@import './variables';
+
+.shows {
+    .ui.list {
+        margin-left: 5px;
+        border-left: 2px solid $borderColor;
+
+        .item {
+            margin-left: -6px;
+            margin-bottom: 10px;
+
+            &:first-child > .icon {
+                top: -4px;
+                position: relative;
+                &:before {
+                    background: #ffffff !important;
+                }
+            }
+
+            > .icon {
+                font-size: 8px;
+            }
+
+            .meta {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            h5 .artist {
+                color: $textColor;
+                font-weight: normal;
+
+                &:before {
+                    content: " | ";
+                }
+            }
+        }
+    }
+}

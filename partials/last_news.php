@@ -23,7 +23,7 @@
                     <img class="lazy-load" data-src="<?= url('images/news/main_new.png') ?>">
                 </div>
                 <div class="content">
-                    <div class="meta stats">
+                    <div class="meta stats ui segment basic">
                         <div class="date">
                             <i class="calendar icon"></i>
                             <span>Apr 9, 2019</span>

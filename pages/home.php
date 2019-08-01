@@ -12,6 +12,7 @@
             <? include APP_DIR . '/partials/chat.php' ?>
             <? include APP_DIR . '/partials/latest_galleries.php' ?>
             <? include APP_DIR . '/partials/follow_us.php' ?>
+            <? include APP_DIR . '/partials/shows.php' ?>
         </div>
         <? include APP_DIR . '/partials/footer.php' ?>
 

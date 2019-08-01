@@ -13,7 +13,7 @@
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed1.jpg') ?>">
                 </div>
                 <div class="content">
-                    <div class="meta">
+                    <div class="meta stats">
                         <div class="date">
                             <i class="calendar icon"></i>
                             <span>Oct 25, 2018</span>
@@ -35,7 +35,7 @@
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed2.jpg') ?>">
                 </div>
                 <div class="content">
-                    <div class="meta">
+                    <div class="meta stats">
                         <div class="date">
                             <i class="calendar icon"></i>
                             <span>Dic 12, 2018</span>
@@ -57,7 +57,7 @@
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed3.jpg') ?>">
                 </div>
                 <div class="content">
-                    <div class="meta">
+                    <div class="meta stats">
                         <div class="date">
                             <i class="calendar icon"></i>
                             <span>Feb 21, 2019</span>
@@ -79,7 +79,7 @@
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed4.jpg') ?>">
                 </div>
                 <div class="content">
-                    <div class="meta">
+                    <div class="meta stats">
                         <div class="date">
                             <i class="calendar icon"></i>
                             <span>Nov 8, 2018</span>
@@ -101,7 +101,7 @@
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed5.jpg') ?>">
                 </div>
                 <div class="content">
-                    <div class="meta">
+                    <div class="meta stats">
                         <div class="date">
                             <i class="calendar icon"></i>
                             <span>Apr 1, 2019</span>
