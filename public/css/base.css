@@ -36,8 +36,8 @@ h3 {
 }
 
 .ui.grid {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -10px;
+  margin-bottom: -10px;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -46,8 +46,6 @@ h3 {
 .ui.grid > .row > .column {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .ui.items > .item .meta {
@@ -66,11 +64,6 @@ h3 {
   box-shadow: none;
   padding-left: 28px;
   padding-right: 28px;
-  margin-top: 40px;
-}
-
-.widget.ui.segment:first-child {
-  margin-top: 0;
 }
 
 .widget .widget-head.dividing.header {

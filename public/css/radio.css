@@ -36,8 +36,8 @@ h3 {
 }
 
 .ui.grid {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -10px;
+  margin-bottom: -10px;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -46,8 +46,6 @@ h3 {
 .ui.grid > .row > .column {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
 }
 
 .ui.items > .item .meta {
@@ -66,11 +64,6 @@ h3 {
   box-shadow: none;
   padding-left: 28px;
   padding-right: 28px;
-  margin-top: 40px;
-}
-
-.widget.ui.segment:first-child {
-  margin-top: 0;
 }
 
 .widget .widget-head.dividing.header {
@@ -194,7 +187,7 @@ h3 {
 
 
 .header {
-  margin-bottom: 54px;
+  margin-bottom: 40px;
 }
 
 .header .ui.label {
@@ -318,10 +311,11 @@ h3 {
 
 .upcoming-events .ui.grid > .column {
   display: flex;
+  flex: 1 1 auto;
 }
 
-.upcoming-events .card {
-  flex: 1 1 auto;
+.upcoming-events .card .ui.label {
+  margin-bottom: 5px;
 }
 
 .upcoming-events .card .content {
@@ -338,67 +332,83 @@ h3 {
 }
 
 
+.most-viewed .widget-body .ui.items > .item {
+  font-size: 12px;
+}
 
-.chat .widget-head {
+.most-viewed .widget-body .ui.items > .item > .image {
+  width: 130px;
+}
+
+.most-viewed .widget-body .ui.items > .item > .image + .content {
+  padding-left: 15px;
+}
+
+
+.chat .widget-head.dividing.header {
   margin-bottom: 0;
 }
 
-.chat .ui.feed {
-  max-height: 555px;
+.chat .ui.comments {
+  max-height: 415px;
+  max-width: 100%;
   overflow: auto;
   margin-bottom: 25px;
 }
 
-.chat .ui.feed > .event {
+.chat .ui.comments > .comment {
+  display: flex;
   align-items: flex-end;
 }
 
-.chat .ui.feed > .event > .label {
+.chat .ui.comments > .comment:first-child {
+  margin: 0.5em 0 0;
+  padding: 0.5em 0 0;
+}
+
+.chat .ui.comments > .comment .text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.chat .ui.comments > .comment > .avatar {
   align-self: unset;
 }
 
-.chat .ui.feed > .event > .label img {
-  border-radius: 0;
-}
-
-.chat .ui.feed > .event > .label + .content {
-  margin-top: 16px;
-  margin-bottom: 0;
-}
-
-.chat .ui.feed > .event > .label + .content .message {
+.chat .ui.comments > .comment > .avatar ~ .content {
+  margin-left: 15px;
+  max-width: 75%;
   padding: 8px 15px;
   border: 1px solid #D1D1D1;
   border-radius: 5px 5px 5px 0;
   display: inline-block;
 }
 
-.chat .ui.feed > .event > .label + .content .message.highlighted {
+.chat .ui.comments > .comment > .avatar ~ .content .author {
+  color: #AAAAAA;
+}
+
+.chat .ui.comments > .comment > .avatar ~ .content.highlighted {
   background: rgba(252, 214, 81, 0.2);
   border-color: #FCD651;
 }
 
-.chat .ui.feed > .event > .label + .content .message.highlighted .admin {
+.chat .ui.comments > .comment > .avatar ~ .content.highlighted .admin {
   font-weight: bold;
   font-size: 7px;
   background-color: #E85343;
   text-transform: uppercase;
-  color: #ffffff;
   line-height: 8px;
   padding: 1px 4px;
   margin-left: 5px;
   border-radius: 2px;
 }
 
-.chat .ui.feed > .event > .label + .content .message .info {
+.chat .ui.comments > .comment > .avatar ~ .content .info {
   display: flex;
   justify-content: space-between;
   font-size: 10px;
   line-height: 12px;
-}
-
-.chat .ui.feed > .event > .label + .content .message .text {
-  color: #161618;
 }
 
 .chat .form {
@@ -412,6 +422,11 @@ h3 {
   flex: 1 1 auto;
 }
 
+
+.latest-galleries .ui.grid > .column {
+  display: flex;
+  flex: 1 1 auto;
+}
 
 .latest-galleries .widget-head .arrows {
   font-size: 20px;

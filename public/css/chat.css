@@ -1,63 +1,67 @@
-.chat .widget-head {
+.chat .widget-head.dividing.header {
   margin-bottom: 0;
 }
 
-.chat .ui.feed {
-  max-height: 555px;
+.chat .ui.comments {
+  max-height: 415px;
+  max-width: 100%;
   overflow: auto;
   margin-bottom: 25px;
 }
 
-.chat .ui.feed > .event {
+.chat .ui.comments > .comment {
+  display: flex;
   align-items: flex-end;
 }
 
-.chat .ui.feed > .event > .label {
+.chat .ui.comments > .comment:first-child {
+  margin: 0.5em 0 0;
+  padding: 0.5em 0 0;
+}
+
+.chat .ui.comments > .comment .text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.chat .ui.comments > .comment > .avatar {
   align-self: unset;
 }
 
-.chat .ui.feed > .event > .label img {
-  border-radius: 0;
-}
-
-.chat .ui.feed > .event > .label + .content {
-  margin-top: 16px;
-  margin-bottom: 0;
-}
-
-.chat .ui.feed > .event > .label + .content .message {
+.chat .ui.comments > .comment > .avatar ~ .content {
+  margin-left: 15px;
+  max-width: 75%;
   padding: 8px 15px;
   border: 1px solid #D1D1D1;
   border-radius: 5px 5px 5px 0;
   display: inline-block;
 }
 
-.chat .ui.feed > .event > .label + .content .message.highlighted {
+.chat .ui.comments > .comment > .avatar ~ .content .author {
+  color: #AAAAAA;
+}
+
+.chat .ui.comments > .comment > .avatar ~ .content.highlighted {
   background: rgba(252, 214, 81, 0.2);
   border-color: #FCD651;
 }
 
-.chat .ui.feed > .event > .label + .content .message.highlighted .admin {
+.chat .ui.comments > .comment > .avatar ~ .content.highlighted .admin {
   font-weight: bold;
   font-size: 7px;
   background-color: #E85343;
   text-transform: uppercase;
-  color: #ffffff;
   line-height: 8px;
   padding: 1px 4px;
   margin-left: 5px;
   border-radius: 2px;
 }
 
-.chat .ui.feed > .event > .label + .content .message .info {
+.chat .ui.comments > .comment > .avatar ~ .content .info {
   display: flex;
   justify-content: space-between;
   font-size: 10px;
   line-height: 12px;
-}
-
-.chat .ui.feed > .event > .label + .content .message .text {
-  color: #161618;
 }
 
 .chat .form {

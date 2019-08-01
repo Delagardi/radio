@@ -1,1 +1,17 @@
 @import './variables';
+
+.most-viewed {
+    .widget-body {
+        .ui.items > .item {
+            font-size: 12px;
+            
+            & > .image {
+                width: 130px;
+
+                + .content {
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+}

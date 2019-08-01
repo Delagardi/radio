@@ -3,10 +3,14 @@
 .upcoming-events {
     .ui.grid > .column {
         display: flex;
+        flex: 1 1 auto;
     }
     
     .card {
-        flex: 1 1 auto;
+        .ui.label {
+            margin-bottom: 5px;
+        }
+
         .content {
             padding: 24px 30px 30px;
         }

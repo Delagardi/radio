@@ -7,7 +7,7 @@
         <div class="ui items unstackable">
             <div class="item">
                 <div class="image">
-                    <div class="ui placeholder" style="height:105px;">
+                    <div class="ui placeholder" style="height:78px;">
                         <div class="image rectangular"></div>
                     </div>
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed1.jpg') ?>">
@@ -29,7 +29,7 @@
 
             <div class="item">
                 <div class="image">
-                    <div class="ui placeholder" style="height:105px;">
+                    <div class="ui placeholder" style="height:78px;">
                         <div class="image rectangular"></div>
                     </div>
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed2.jpg') ?>">
@@ -51,7 +51,7 @@
 
             <div class="item">
                 <div class="image">
-                    <div class="ui placeholder" style="height:105px;">
+                    <div class="ui placeholder" style="height:78px;">
                         <div class="image rectangular"></div>
                     </div>
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed3.jpg') ?>">
@@ -73,7 +73,7 @@
 
             <div class="item">
                 <div class="image">
-                    <div class="ui placeholder" style="height:105px;">
+                    <div class="ui placeholder" style="height:78px;">
                         <div class="image rectangular"></div>
                     </div>
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed4.jpg') ?>">
@@ -95,7 +95,7 @@
 
             <div class="item">
                 <div class="image">
-                    <div class="ui placeholder" style="height:105px;">
+                    <div class="ui placeholder" style="height:78px;">
                         <div class="image rectangular"></div>
                     </div>
                     <img class="lazy-load" data-src="<?= url('images/most_viewed/most_viewed5.jpg') ?>">

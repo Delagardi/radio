@@ -14,7 +14,7 @@
     </div>
     <div class="widget-body">
         <div class="ui stackable two column grid">
-            <div class="column main-new">
+            <div class="sixteen wide tablet eight wide computer column main-new">
                 <div class="ui fluid image">
                     <div class="ui primary label">life style</div>
                     <div class="ui placeholder" style="width:100%; height:318px;">
@@ -55,7 +55,7 @@
                 </div>
             </div>
     
-            <div class="column">
+            <div class="sixteen wide tablet eight wide computer column">
                 <div class="ui items unstackable short-news">
                     <div class="item">
                         <div class="image">

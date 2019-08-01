@@ -1,0 +1,12 @@
+.most-viewed .widget-body .ui.items > .item {
+  font-size: 12px;
+}
+
+.most-viewed .widget-body .ui.items > .item > .image {
+  width: 130px;
+}
+
+.most-viewed .widget-body .ui.items > .item > .image + .content {
+  padding-left: 15px;
+}
+

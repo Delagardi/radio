@@ -1,9 +1,10 @@
 .upcoming-events .ui.grid > .column {
   display: flex;
+  flex: 1 1 auto;
 }
 
-.upcoming-events .card {
-  flex: 1 1 auto;
+.upcoming-events .card .ui.label {
+  margin-bottom: 5px;
 }
 
 .upcoming-events .card .content {
