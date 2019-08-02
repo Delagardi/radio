@@ -1,0 +1,71 @@
+.survey {
+  width: 100%;
+  .survey-radiobuttons {
+    .field {
+      width: 100%;
+      margin-top: 14px;
+      
+      .checkbox {
+        width: 100%;
+        label {
+          &:before, &:after {
+            background: #FFFFFF;
+          }
+          &:before {
+            top: 17px;
+            left: 17px;
+            width: 16px;
+            height: 16px;
+          }
+          &:after {
+            top: 22px;
+            left: 22px;
+            height: 6px;
+            width: 6px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+          }
+        }
+
+        input[type="radio"] {
+          &:checked + label, + label:hover {
+            background: #EAF3FF;
+            border: 1px solid var(--primary-color);
+            box-sizing: border-box;
+            border-radius: 2px;
+          }
+        }
+    
+        input:checked~label:before {
+          background: var(--primary-color) !important;
+          border: none;
+        }
+    
+        input:checked~label:after {
+          background: #FFFFFF !important;
+        }
+    
+        .buttons-groups {
+          button {
+            padding: 12px 18px;
+          }
+          
+          button[name="results"] {
+            margin-right: 20px;
+          }
+        }
+      }
+    
+      .label.answer-label {
+        padding: 16px 5px 16px 47px;
+        background: #FAFAFA;
+        border: 1px solid #E5E5E5;
+        border-radius: 2px;
+        font-weight: normal;
+        font-size: 15px;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

@@ -44,6 +44,14 @@
                         <? include APP_DIR . '/partials/latest_galleries.php' ?>
                     </div>
                 </div>
+
+                <div class="row stackable">
+                    <div class="ui nine wide tablet eleven wide computer column">
+                    </div>
+                    <div class="ui seven wide tablet five wide computer column">
+                        <? include APP_DIR . '/partials/survey.php' ?>
+                    </div>
+                </div>
             </div>
         </div>
         <? include APP_DIR . '/partials/footer.php' ?>
