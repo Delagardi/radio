@@ -8,4 +8,6 @@ $(() => {
     }).on('load', function(e) {
         $(this).prev('.placeholder').remove(); 
     });
+
+    $('.ui.embed').embed();
 });

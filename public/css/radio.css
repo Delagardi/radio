@@ -39,12 +39,20 @@ h5 {
   margin: 0;
 }
 
+h1 {
+  font-size: 30px;
+}
+
 h2 {
   font-size: 21px;
 }
 
 h3 {
   font-size: 20px;
+}
+
+h4 {
+  font-size: 14px;
 }
 
 .ui.grid {
@@ -546,5 +554,64 @@ h3 {
 
 .shows .ui.list .item h5 .artist:before {
   content: " | ";
+}
+
+
+.latest-videos .widget-body {
+  position: relative;
+}
+
+.latest-videos .widget-body .main-video {
+  position: relative;
+}
+
+.latest-videos .widget-body .main-video.active + .video-overlay {
+  display: none;
+}
+
+.latest-videos .widget-body .main-video .video-overlay {
+  position: absolute;
+  pointer-events: none;
+  z-index: 3;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 67.78%);
+}
+
+.latest-videos .widget-body .main-video .video-overlay h1 {
+  font-size: 30px;
+  padding-right: 124px;
+}
+
+.latest-videos .widget-body .main-video .video-overlay .meta {
+  color: var(--light-text-color);
+}
+
+@media (max-width: 1200px) {
+  .latest-videos .widget-body .main-video .video-overlay h1 {
+    font-size: 2.2vw;
+  }
+}
+
+.latest-videos .widget-body .additional-videos {
+  margin-top: 20px;
+}
+
+.latest-videos .widget-body .additional-videos .play.icon:before {
+  font-size: 3em;
+}
+
+.latest-videos .widget-body .additional-videos .card {
+  border: none;
+}
+
+.latest-videos .widget-body .additional-videos .card .content {
+  padding: 0;
+}
+
+.latest-videos .widget-body .additional-videos .card .meta {
+  padding: 17px 0 13px;
 }
 

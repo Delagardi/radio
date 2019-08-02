@@ -1,0 +1,59 @@
+.latest-videos {  
+    .widget-body {
+        position: relative;
+        
+        .main-video {
+            position: relative;
+
+            &.active + .video-overlay {
+                display: none;
+            }
+
+            .video-overlay {
+                position: absolute;
+                pointer-events: none;
+                z-index: 3;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 67.78%);        
+
+                h1 {
+                    font-size: 30px;
+                    padding-right: 124px;
+                }
+
+                .meta {
+                    color: var(--light-text-color);
+                }
+
+                @media(max-width: 1200px) {
+                    h1 {
+                        font-size: 2.2vw;
+                    }
+                }
+            }
+        }
+        
+        .additional-videos {
+            margin-top: 20px;
+
+            .play.icon:before {
+                font-size: 3em;
+            }
+            
+            .card {
+                border: none;
+                
+                .content {
+                    padding: 0;
+                }
+                
+                .meta {
+                    padding: 17px 0 13px;
+                }
+            }
+        }
+    }
+}
