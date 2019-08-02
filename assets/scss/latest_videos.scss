@@ -1,0 +1,58 @@
+@import './variables';
+
+.latest-videos {  
+  .widget-body {
+    .main-video_wrapper {
+      position: relative;
+      .header-overlay {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 40%;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 67.78%);        
+        h1 {
+          position: absolute;
+          left: 24px;
+          bottom: 36px;
+          max-width: 70%;
+          color: $lightTextColor;
+          @media (max-width: 540px) {
+            font-size: 18px;
+            max-width: 100%;
+            bottom: 16px;
+          }
+          @media (min-width: 541px) and (max-width: 620px) {
+            font-size: 22px;
+            max-width: 90%;
+            bottom: 26px;
+          }
+        }
+        .meta {
+          position: absolute;
+          left: 25px;
+          bottom: 13px;
+          right: 30px;
+          color: $lightTextColor;
+          @media (max-width: 540px) {
+            font-size: 14px;
+            bottom: 7px;
+          }
+        }
+      }
+    }
+    .additional-videos {
+      margin-top: 20px;
+      .card {
+        border: none;
+        .content {
+          padding: 0;
+        }
+        .meta {
+          padding: 17px 0 13px;
+        }
+      }
+    }
+  }
+}
