@@ -1,10 +1,20 @@
-@import './variables';
+:root {
+    --title-font: "Poppins", sans-serif; 
+    --text-font: "Lato", sans-serif; 
+    --primary-color: #3389FF;
+    --title-color: #161618;
+    --text-color: #AAAAAA;
+    --border-color: #D1D1D1;
+    --light-text-color: #ffffff;
+    --footer-bg-color: #161618;
+    --footer-height: 60px;
+}
 
 body {
-    font-family: $textFont;
+    font-family: var(--text-font);
     font-style: normal;
     font-size: 14px;
-    color: $textColor;
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
 }
@@ -14,8 +24,8 @@ body > .container {
 }
 
 h1, h2, h3, h4, h5 {
-    color: $titleColor;
-    font-family: $titleFont;
+    color: var(--title-color);
+    font-family: var(--title-font);
 }
 
 h2, h3, h4, h5 {
@@ -44,14 +54,14 @@ h3 {
 }
 
 .ui.items > .item .meta {
-    color: $textColor;
+    color: var(--text-color);
 }
 
 .ui.card {
     border-radius: 0px;
     width: 100%;
     box-shadow: none;
-    border: 1px solid $borderColor;
+    border: 1px solid var(--border-color);
 }
 
 .widget {        
@@ -71,17 +81,17 @@ h3 {
         position: relative;
 
         .icon.badge {
-            color: $primaryColor;
+            color: var(--primary-color);
             font-size: 1em;
         }
         
         h1 { 
-            font-family: $titleFont;
+            font-family: var(--title-font);
             font-style: normal;
             font-weight: 600;
             font-size: 20px;
             line-height: 30px;
-            color: $primaryColor;
+            color: var(--primary-color);
             margin-bottom: 0;
         }
 
@@ -93,13 +103,13 @@ h3 {
             bottom: -1px;
             height: 2px;
             width: 30px;
-            background-color: $primaryColor;
+            background-color: var(--primary-color);
         }
     }
 
     & .widget-body {
         .ui .meta {
-            color: $textColor;
+            color: var(--text-color);
             margin-top: 0;
 
             &.stats {

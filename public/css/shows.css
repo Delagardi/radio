@@ -1,6 +1,6 @@
 .shows .ui.list {
   margin-left: 5px;
-  border-left: 2px solid #D1D1D1;
+  border-left: 2px solid var(--border-color);
 }
 
 .shows .ui.list .item {
@@ -27,7 +27,7 @@
 }
 
 .shows .ui.list .item h5 .artist {
-  color: #AAAAAA;
+  color: var(--text-color);
   font-weight: normal;
 }
 

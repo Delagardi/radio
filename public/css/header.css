@@ -16,7 +16,7 @@
 }
 
 .header .menu.top-menu .item.date {
-  color: #AAAAAA;
+  color: var(--text-color);
 }
 
 .header .menu.top-menu .item > img {
@@ -63,7 +63,7 @@
 }
 
 .header .navigation .horizontal-nav .item {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--title-font);
   text-transform: uppercase;
   padding: 20px 10px;
   line-height: 19px;
@@ -75,7 +75,7 @@
 }
 
 .header .navigation .horizontal-nav .item.active {
-  border-bottom: 3px solid #3389FF;
+  border-bottom: 3px solid var(--primary-color);
   background: inherit;
 }
 

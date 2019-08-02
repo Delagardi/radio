@@ -1,4 +1,6 @@
 $(() => {
+    cssVars();
+
     $('.lazy-load').visibility({
         type: 'image',
         transition: 'fade in',

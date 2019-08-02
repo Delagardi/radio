@@ -31,6 +31,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/ArbuzovAlek/radio#readme",
   "dependencies": {
+    "css-vars-ponyfill": "^2.0.2",
     "fomantic-ui": "^2.7.7"
   }
 }

@@ -13,6 +13,7 @@
     "/public/lib/semantic/semantic.min.css": "/public/lib/semantic/semantic.min.css",
     "/public/lib/semantic/semantic.min.js": "/public/lib/semantic/semantic.min.js",
     "/public/lib/jquery/jquery.min.js": "/public/lib/jquery/jquery.min.js",
+    "/public/lib/css-vars-ponyfill/css-vars-ponyfill.min.js": "/public/lib/css-vars-ponyfill/css-vars-ponyfill.min.js",
     "/public/css/radio.css": "/public/css/radio.css",
     "/public/js/radio.js": "/public/js/radio.js"
 }

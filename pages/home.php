@@ -50,6 +50,7 @@
 
         <script type="text/javascript" src="<?= url('lib/jquery/jquery.min.js') ?>"></script>
         <script type="text/javascript" src="<?= url('lib/semantic/semantic.min.js') ?>"></script>
+        <script type="text/javascript" src="<?= url('lib/css-vars-ponyfill/css-vars-ponyfill.min.js') ?>"></script>
         <script type="text/javascript" src="<?= url('js/radio.js') ?>"></script>
     </body>
 </html>

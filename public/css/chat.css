@@ -32,13 +32,13 @@
   margin-left: 15px;
   max-width: 75%;
   padding: 8px 15px;
-  border: 1px solid #D1D1D1;
+  border: 1px solid var(--border-color);
   border-radius: 5px 5px 5px 0;
   display: inline-block;
 }
 
 .chat .ui.comments > .comment > .avatar ~ .content .author {
-  color: #AAAAAA;
+  color: var(--text-color);
 }
 
 .chat .ui.comments > .comment > .avatar ~ .content.highlighted {

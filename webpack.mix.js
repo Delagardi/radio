@@ -14,6 +14,7 @@ mix
     .copy('assets/lib/semantic/dist/semantic.min.css', 'public/lib/semantic/')
     .copy('assets/lib/semantic/dist/semantic.min.js', 'public/lib/semantic/')
     .copy('assets/lib/jquery/jquery.min.js', 'public/lib/jquery')
+    .copy('node_modules/css-vars-ponyfill/dist/css-vars-ponyfill.min.js', 'public/lib/css-vars-ponyfill/')
     .copyDirectory('assets/lib/semantic/dist/themes/default/assets/fonts', 'public/lib/semantic/themes/default/assets/fonts')
     .copyDirectory('assets/images', 'public/images')
     .js('assets/js/core.js', 'public/js')

@@ -1,5 +1,3 @@
-@import './variables';
-
 .chat {
     .widget-head.dividing.header {
         margin-bottom: 0;
@@ -32,12 +30,12 @@
                     margin-left: 15px;
                     max-width: 75%;
                     padding: 8px 15px;
-                    border: 1px solid $borderColor;
+                    border: 1px solid var(--border-color);
                     border-radius: 5px 5px 5px 0; 
                     display: inline-block;
 
                     .author {
-                        color: $textColor;
+                        color: var(--text-color);
                     }
 
                     &.highlighted {

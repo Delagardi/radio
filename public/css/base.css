@@ -1,8 +1,20 @@
+:root {
+  --title-font: "Poppins", sans-serif;
+  --text-font: "Lato", sans-serif;
+  --primary-color: #3389FF;
+  --title-color: #161618;
+  --text-color: #AAAAAA;
+  --border-color: #D1D1D1;
+  --light-text-color: #ffffff;
+  --footer-bg-color: #161618;
+  --footer-height: 60px;
+}
+
 body {
-  font-family: "Lato", sans-serif;
+  font-family: var(--text-font);
   font-style: normal;
   font-size: 14px;
-  color: #AAAAAA;
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
 }
@@ -16,8 +28,8 @@ h2,
 h3,
 h4,
 h5 {
-  color: #161618;
-  font-family: "Poppins", sans-serif;
+  color: var(--title-color);
+  font-family: var(--title-font);
 }
 
 h2,
@@ -49,14 +61,14 @@ h3 {
 }
 
 .ui.items > .item .meta {
-  color: #AAAAAA;
+  color: var(--text-color);
 }
 
 .ui.card {
   border-radius: 0px;
   width: 100%;
   box-shadow: none;
-  border: 1px solid #D1D1D1;
+  border: 1px solid var(--border-color);
 }
 
 .widget.ui.segment {
@@ -76,17 +88,17 @@ h3 {
 }
 
 .widget .widget-head.dividing.header .icon.badge {
-  color: #3389FF;
+  color: var(--primary-color);
   font-size: 1em;
 }
 
 .widget .widget-head.dividing.header h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--title-font);
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  color: #3389FF;
+  color: var(--primary-color);
   margin-bottom: 0;
 }
 
@@ -98,11 +110,11 @@ h3 {
   bottom: -1px;
   height: 2px;
   width: 30px;
-  background-color: #3389FF;
+  background-color: var(--primary-color);
 }
 
 .widget .widget-body .ui .meta {
-  color: #AAAAAA;
+  color: var(--text-color);
   margin-top: 0;
 }
 
