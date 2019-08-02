@@ -1,6 +1,6 @@
 <?php
 
-define('APP_DIR', realpath(__DIR__.'/..'));
+define('APP_DIR', dirname(__DIR__));
 define('INDEX_DIR', __DIR__);
 
 $req = urldecode($_SERVER['REQUEST_URI']);

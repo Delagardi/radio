@@ -1,5 +1,4 @@
 .survey {
-  --checkbox-active-color: #EAF3FF;
   width: 100%;
 }
 
@@ -34,7 +33,7 @@
 
 .survey .survey-radiobuttons .field .checkbox input[type=radio]:checked + label,
 .survey .survey-radiobuttons .field .checkbox input[type=radio] + label:hover {
-  background: var(--checkbox-active-color);
+  background: #EAF3FF;
   border: 1px solid var(--primary-color);
   box-sizing: border-box;
   border-radius: 2px;

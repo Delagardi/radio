@@ -13,6 +13,7 @@ mix
     .sass('assets/scss/follow_us.scss', 'public/css/')
     .sass('assets/scss/shows.scss', 'public/css/')
     .sass('assets/scss/latest_videos.scss', 'public/css/')
+    .sass('assets/scss/sidebar_radio.scss', 'public/css/')
     .copy('assets/lib/semantic/dist/semantic.min.css', 'public/lib/semantic/')
     .copy('assets/lib/semantic/dist/semantic.min.js', 'public/lib/semantic/')
     .copy('assets/lib/jquery/jquery.min.js', 'public/lib/jquery')
@@ -20,6 +21,7 @@ mix
     .copyDirectory('assets/lib/semantic/dist/themes/default/assets/fonts', 'public/lib/semantic/themes/default/assets/fonts')
     .copyDirectory('assets/images', 'public/images')
     .js('assets/js/core.js', 'public/js')
+    .js('assets/js/homepage.js', 'public/js')
     .styles([
         'public/css/base.css',
         'public/css/last_news.css',
@@ -33,8 +35,10 @@ mix
         'public/css/follow_us.css',
         'public/css/shows.css',
         'public/css/latest_videos.css',
+        'public/css/sidebar_radio.css',
     ], 'public/css/radio.css')
     .scripts([
-        'public/js/core.js'
+        'public/js/core.js',
+        'public/js/homepage.js'
     ], 'public/js/radio.js') 
 ;
