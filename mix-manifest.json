@@ -13,6 +13,7 @@
     "/public/css/shows.css": "/public/css/shows.css",
     "/public/css/latest_videos.css": "/public/css/latest_videos.css",
     "/public/css/sidebar_radio.css": "/public/css/sidebar_radio.css",
+    "/public/css/homepage.css": "/public/css/homepage.css",
     "/public/js/homepage.js": "/public/js/homepage.js",
     "/public/lib/semantic/semantic.min.css": "/public/lib/semantic/semantic.min.css",
     "/public/lib/semantic/semantic.min.js": "/public/lib/semantic/semantic.min.js",

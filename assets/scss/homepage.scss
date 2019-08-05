@@ -1,0 +1,14 @@
+.homepage {
+    $prioBlockCount: 6;
+    $secondaryBlockNumbers: 2 5 7 10;
+    $secondaryBlockOrder: 0;
+
+    @media(max-width: 767.98px) {
+        @each $i in $secondaryBlockNumbers {
+            .ui .column.extra:nth-of-type(#{$i}) {
+                $secondaryBlockOrder: $secondaryBlockOrder + 1;
+                order: $prioBlockCount + $secondaryBlockOrder;
+            }
+        }
+    }
+}
