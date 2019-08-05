@@ -1,5 +1,4 @@
 .sidebar-radio {
-    background: #ffffff !important;
     display: flex;
     flex-direction: column;
     
@@ -9,19 +8,113 @@
         font-weight: 600;
         font-size: 12px;
     }
-
     .card {
         border: 0;
-
+        border-radius: 0;
+        
+        & > :first-child {
+            border-radius: 0 !important;
+        }
+        
         & > .content {
             flex-grow: 0;
+            border: none;
         }
     }
+
+    &.no-track .player .artist,
+    &.no-quality .controls .quality {
+        display: none;
+    }
+
+    &.offline {
+        background: rgba(139,139,139,1);
+        background: -moz-linear-gradient(top, rgba(139,139,139,1) 0%, rgba(197,197,198,1) 51%, rgba(254,254,254,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(139,139,139,1)), color-stop(51%, rgba(197,197,198,1)), color-stop(100%, rgba(254,254,254,1)));
+        background: -webkit-linear-gradient(top, rgba(139,139,139,1) 0%, rgba(197,197,198,1) 51%, rgba(254,254,254,1) 100%);
+        background: -o-linear-gradient(top, rgba(139,139,139,1) 0%, rgba(197,197,198,1) 51%, rgba(254,254,254,1) 100%);
+        background: -ms-linear-gradient(top, rgba(139,139,139,1) 0%, rgba(197,197,198,1) 51%, rgba(254,254,254,1) 100%);
+        background: linear-gradient(to bottom, rgba(139,139,139,1) 0%, rgba(197,197,198,1) 51%, rgba(254,254,254,1) 100%);
+
+        .card {
+            background: none;
+        }
+
+        .menu {
+            .indicator.offline {
+                display: inline-block !important;
+            } 
+            .indicator.online, .time {
+                display: none;
+            }
+        }
+        .channel-name, .description, .contacts, .broadcasters {
+            display: none;
+        }
+
+        .player {
+            background-image: none !important;
+            
+            .title {
+                font-size: 22px;
+                line-height: 25px;
+            }
+            
+            .artist {
+                display: none;
+            }
+        }
+    }
+
+    &.error .error-wrapper {
+        display: block;
+    }
+
+    & .error-wrapper {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 260px;
+        background: rgba(0, 0, 0, 0.85);
+        position: absolute;
+        display: none;
+
+        color: #FFFFFF;
+        border-radius: 0 !important;
+        padding: 50px 75px 0;
+
+        h3, p, .column {
+            color: inherit !important;
+            padding: 0;
+            margin: 0;
+        }
+
+        h3 {
+            line-height: 24px;
+            margin-top: 2px;
+            letter-spacing: 0.1px;
+        }
+
+        p {
+            font-family: var(--roboto-font);
+            line-height: 16px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 34px;
+            border-radius: 0;
+            background: var(--primary-color)
+        }
+    }
+
     .menu {
         margin: 0;
         height: 40px;
         border: 0;
         font-family: var(--roboto-font);
+        border-radius: 0 !important;
 
         & > .indicator, & > .time {
             margin: 10px 0 10px 10px;
@@ -31,6 +124,10 @@
             line-height: 14px;
             font-weight: 500;
             text-transform: uppercase;
+        }
+
+        & > .indicator.offline {
+            display: none;
         }
 
         & > .right.menu .ui.icon {
@@ -88,6 +185,7 @@
             box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
             margin-top: 4px;
             min-width: 100%;
+            border-radius: 2px;
         }
 
         & > .quality {
@@ -130,7 +228,7 @@
                         background: var(--border-color);
                     }
                     & > .track-fill {
-                        background: #3389FF
+                        background: var(--primary-color);
                     }
                     & > .thumb {
                         background: #1565D2;

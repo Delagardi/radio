@@ -705,7 +705,6 @@ h4 {
 
 
 .sidebar-radio {
-  background: #ffffff !important;
   display: flex;
   flex-direction: column;
 }
@@ -719,10 +718,104 @@ h4 {
 
 .sidebar-radio .card {
   border: 0;
+  border-radius: 0;
+}
+
+.sidebar-radio .card > :first-child {
+  border-radius: 0 !important;
 }
 
 .sidebar-radio .card > .content {
   flex-grow: 0;
+  border: none;
+}
+
+.sidebar-radio.no-track .player .artist,
+.sidebar-radio.no-quality .controls .quality {
+  display: none;
+}
+
+.sidebar-radio.offline {
+  background: #8b8b8b;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #8b8b8b), color-stop(51%, #c5c5c6), color-stop(100%, #fefefe));
+  background: linear-gradient(to bottom, #8b8b8b 0%, #c5c5c6 51%, #fefefe 100%);
+}
+
+.sidebar-radio.offline .card {
+  background: none;
+}
+
+.sidebar-radio.offline .menu .indicator.offline {
+  display: inline-block !important;
+}
+
+.sidebar-radio.offline .menu .indicator.online,
+.sidebar-radio.offline .menu .time {
+  display: none;
+}
+
+.sidebar-radio.offline .channel-name,
+.sidebar-radio.offline .description,
+.sidebar-radio.offline .contacts,
+.sidebar-radio.offline .broadcasters {
+  display: none;
+}
+
+.sidebar-radio.offline .player {
+  background-image: none !important;
+}
+
+.sidebar-radio.offline .player .title {
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.sidebar-radio.offline .player .artist {
+  display: none;
+}
+
+.sidebar-radio.error .error-wrapper {
+  display: block;
+}
+
+.sidebar-radio .error-wrapper {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 260px;
+  background: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  display: none;
+  color: #FFFFFF;
+  border-radius: 0 !important;
+  padding: 50px 75px 0;
+}
+
+.sidebar-radio .error-wrapper h3,
+.sidebar-radio .error-wrapper p,
+.sidebar-radio .error-wrapper .column {
+  color: inherit !important;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-radio .error-wrapper h3 {
+  line-height: 24px;
+  margin-top: 2px;
+  letter-spacing: 0.1px;
+}
+
+.sidebar-radio .error-wrapper p {
+  font-family: var(--roboto-font);
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.sidebar-radio .error-wrapper button {
+  margin-top: 20px;
+  padding: 10px 34px;
+  border-radius: 0;
+  background: var(--primary-color);
 }
 
 .sidebar-radio .menu {
@@ -730,6 +823,7 @@ h4 {
   height: 40px;
   border: 0;
   font-family: var(--roboto-font);
+  border-radius: 0 !important;
 }
 
 .sidebar-radio .menu > .indicator,
@@ -741,6 +835,10 @@ h4 {
   line-height: 14px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.sidebar-radio .menu > .indicator.offline {
+  display: none;
 }
 
 .sidebar-radio .menu > .right.menu .ui.icon {
@@ -799,6 +897,7 @@ h4 {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
   margin-top: 4px;
   min-width: 100%;
+  border-radius: 2px;
 }
 
 .sidebar-radio .controls > .quality {
@@ -843,7 +942,7 @@ h4 {
 }
 
 .sidebar-radio .controls > .volume > .sidebar-volume > .inner > .track-fill {
-  background: #3389FF;
+  background: var(--primary-color);
 }
 
 .sidebar-radio .controls > .volume > .sidebar-volume > .inner > .thumb {
