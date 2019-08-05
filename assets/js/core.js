@@ -25,4 +25,7 @@ $(() => {
             $('.sidebar-radio').sidebar('hide');
         });
     })
+    $('.tiny.modal')
+       .modal('show')
+    ;
 });

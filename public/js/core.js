@@ -116,6 +116,7 @@ $(function () {
       $('.sidebar-radio').sidebar('hide');
     });
   });
+  $('.tiny.modal').modal('show');
 });
 
 /***/ }),
@@ -168,6 +169,17 @@ $(function () {
 /*!*********************************!*\
   !*** ./assets/scss/header.scss ***!
   \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./assets/scss/homepage.scss":
+/*!***********************************!*\
+  !*** ./assets/scss/homepage.scss ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -241,6 +253,17 @@ $(function () {
 
 /***/ }),
 
+/***/ "./assets/scss/signup_popup.scss":
+/*!***************************************!*\
+  !*** ./assets/scss/signup_popup.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./assets/scss/survey.scss":
 /*!*********************************!*\
   !*** ./assets/scss/survey.scss ***!
@@ -264,26 +287,28 @@ $(function () {
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/signup_popup.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ./assets/scss/homepage.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/js/core.js */"./assets/js/core.js");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/base.scss */"./assets/scss/base.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/last_news.scss */"./assets/scss/last_news.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/header.scss */"./assets/scss/header.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/footer.scss */"./assets/scss/footer.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/upcoming_events.scss */"./assets/scss/upcoming_events.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/most_viewed.scss */"./assets/scss/most_viewed.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/chat.scss */"./assets/scss/chat.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/survey.scss */"./assets/scss/survey.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_galleries.scss */"./assets/scss/latest_galleries.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/follow_us.scss */"./assets/scss/follow_us.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/shows.scss */"./assets/scss/shows.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_videos.scss */"./assets/scss/latest_videos.scss");
-module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\js\core.js */"./assets/js/core.js");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\base.scss */"./assets/scss/base.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\last_news.scss */"./assets/scss/last_news.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\header.scss */"./assets/scss/header.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\footer.scss */"./assets/scss/footer.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\upcoming_events.scss */"./assets/scss/upcoming_events.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\most_viewed.scss */"./assets/scss/most_viewed.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\chat.scss */"./assets/scss/chat.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\survey.scss */"./assets/scss/survey.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\signup_popup.scss */"./assets/scss/signup_popup.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\latest_galleries.scss */"./assets/scss/latest_galleries.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\follow_us.scss */"./assets/scss/follow_us.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\shows.scss */"./assets/scss/shows.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\latest_videos.scss */"./assets/scss/latest_videos.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
+module.exports = __webpack_require__(/*! E:\Programming\Test\BeeJee\work\radio\radio\assets\scss\homepage.scss */"./assets/scss/homepage.scss");
 
 
 /***/ })

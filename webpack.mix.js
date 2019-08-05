@@ -9,11 +9,13 @@ mix
     .sass('assets/scss/most_viewed.scss', 'public/css/')
     .sass('assets/scss/chat.scss', 'public/css/')
     .sass('assets/scss/survey.scss', 'public/css/')
+    .sass('assets/scss/signup_popup.scss', 'public/css/')
     .sass('assets/scss/latest_galleries.scss', 'public/css/')
     .sass('assets/scss/follow_us.scss', 'public/css/')
     .sass('assets/scss/shows.scss', 'public/css/')
     .sass('assets/scss/latest_videos.scss', 'public/css/')
     .sass('assets/scss/sidebar_radio.scss', 'public/css/')
+    .sass('assets/scss/homepage.scss', 'public/css/')
     .copy('assets/lib/semantic/dist/semantic.min.css', 'public/lib/semantic/')
     .copy('assets/lib/semantic/dist/semantic.min.js', 'public/lib/semantic/')
     .copy('assets/lib/jquery/jquery.min.js', 'public/lib/jquery')
@@ -31,11 +33,13 @@ mix
         'public/css/most_viewed.css',
         'public/css/chat.css',
         'public/css/survey.css',
+        'public/css/signup_popup.css',
         'public/css/latest_galleries.css',
         'public/css/follow_us.css',
         'public/css/shows.css',
         'public/css/latest_videos.css',
         'public/css/sidebar_radio.css',
+        'public/css/homepage.css',
     ], 'public/css/radio.css')
     .scripts([
         'public/js/core.js',

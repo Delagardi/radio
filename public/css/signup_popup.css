@@ -1,0 +1,105 @@
+.sign-in {
+  max-width: 400px;
+  min-width: 335px;
+}
+
+.sign-in .segment {
+  position: relative;
+  text-align: center;
+}
+
+.sign-in .segment .sign-in-cancel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.sign-in .segment .segment {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.sign-in .segment .segment:after {
+  display: none;
+}
+
+.sign-in .segment .segment .field {
+  max-width: 280px;
+  margin: 20px auto;
+}
+
+.sign-in .segment .segment .field input {
+  border-radius: 2px;
+}
+
+.sign-in .segment .segment .button {
+  border-radius: 2px;
+  max-width: 280px;
+  margin: 20px auto;
+  background: var(--primary-color);
+  color: var(--light-text-color);
+}
+
+.sign-in .segment .header {
+  margin-bottom: 28px;
+  font-size: 30px;
+  font-family: var(--text-font);
+}
+
+.sign-in .segment .sign-in-info {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__reset {
+  margin: 30px auto 25px;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__reset a {
+  color: #000000;
+  font-weight: 600;
+}
+
+.sign-in .segment .sign-in-info .divider {
+  color: var(--text-color);
+  text-transform: none;
+  margin: 34px 0 30px;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__oauth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__oauth .button {
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  color: var(--light-text-color);
+  margin-right: 0;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__oauth .button.facebook {
+  background: #5277CA;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__oauth .button.twitter {
+  background: #38B7F3;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__oauth .button.yahoo {
+  background: #9643E8;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__oauth .button.windows {
+  background: #5277CA;
+}
+
+.sign-in .segment .sign-in-info .sign-in-info__oauth .button.google {
+  background: #E85343;
+}
+
