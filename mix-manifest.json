@@ -7,15 +7,17 @@
     "/public/css/upcoming_events.css": "/public/css/upcoming_events.css",
     "/public/css/most_viewed.css": "/public/css/most_viewed.css",
     "/public/css/chat.css": "/public/css/chat.css",
+    "/public/css/survey.css": "/public/css/survey.css",
     "/public/css/latest_galleries.css": "/public/css/latest_galleries.css",
     "/public/css/follow_us.css": "/public/css/follow_us.css",
     "/public/css/shows.css": "/public/css/shows.css",
     "/public/css/latest_videos.css": "/public/css/latest_videos.css",
+    "/public/css/sidebar_radio.css": "/public/css/sidebar_radio.css",
+    "/public/js/homepage.js": "/public/js/homepage.js",
     "/public/lib/semantic/semantic.min.css": "/public/lib/semantic/semantic.min.css",
     "/public/lib/semantic/semantic.min.js": "/public/lib/semantic/semantic.min.js",
     "/public/lib/jquery/jquery.min.js": "/public/lib/jquery/jquery.min.js",
     "/public/lib/css-vars-ponyfill/css-vars-ponyfill.min.js": "/public/lib/css-vars-ponyfill/css-vars-ponyfill.min.js",
     "/public/css/radio.css": "/public/css/radio.css",
-    "/public/js/radio.js": "/public/js/radio.js",
-    "/public/css/survey.css": "/public/css/survey.css"
+    "/public/js/radio.js": "/public/js/radio.js"
 }

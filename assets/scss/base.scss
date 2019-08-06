@@ -5,9 +5,11 @@
     --title-color: #161618;
     --text-color: #AAAAAA;
     --border-color: #D1D1D1;
+    --light-border-color: #E5E5E5;
     --light-text-color: #ffffff;
     --footer-bg-color: #161618;
     --footer-height: 60px;
+    --roboto-font: "Roboto", sans-serif; 
 }
 
 body {
@@ -21,6 +23,11 @@ body {
 
 body > .container {
     flex: 1 0 auto;
+}
+
+body.pushable > .pusher {
+    min-height: auto;
+    overflow: visible;
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,6 +77,15 @@ h4 {
     width: 100%;
     box-shadow: none;
     border: 1px solid var(--border-color);
+}
+
+.ui.visible.wide.right.sidebar~.fixed, .ui.visible.wide.right.sidebar~.pusher {
+    -webkit-transform: translate3d(-360px,0,0);
+    transform: translate3d(-360px,0,0);
+}
+
+.ui.wide.left.sidebar, .ui.wide.right.sidebar {
+    width: 360px;
 }
 
 .widget {        

@@ -70,7 +70,7 @@
                 </div>
                 <div class="right menu">
                     <div class="ui buttons">
-                        <button class="ui primary labeled icon button">
+                        <button class="ui primary labeled icon button play">
                             <i class="play icon"></i>
                             <div class="text">Listen Now</div>
                         </button>

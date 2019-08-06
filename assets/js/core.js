@@ -9,5 +9,8 @@ $(() => {
         $(this).prev('.placeholder').remove(); 
     });
 
+    $('.ui.dropdown').dropdown();
     $('.ui.embed').embed();
+    $('.ui.slider').slider();
+    $('.ui.sidebar').sidebar('setting', 'transition', 'overlay');
 });
