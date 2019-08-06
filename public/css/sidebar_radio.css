@@ -2,76 +2,56 @@
   display: flex;
   flex-direction: column;
 }
-
 .sidebar-radio h5 {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 600;
   font-size: 12px;
 }
-
 .sidebar-radio .card {
   border: 0;
   border-radius: 0;
 }
-
 .sidebar-radio .card > :first-child {
   border-radius: 0 !important;
 }
-
 .sidebar-radio .card > .content {
   flex-grow: 0;
   border: none;
 }
-
-.sidebar-radio.no-track .player .artist,
-.sidebar-radio.no-quality .controls .quality {
+.sidebar-radio.no-track .player .artist, .sidebar-radio.no-quality .controls .quality {
   display: none;
 }
-
 .sidebar-radio.offline {
   background: #8b8b8b;
   background: -webkit-gradient(left top, left bottom, color-stop(0%, #8b8b8b), color-stop(51%, #c5c5c6), color-stop(100%, #fefefe));
   background: linear-gradient(to bottom, #8b8b8b 0%, #c5c5c6 51%, #fefefe 100%);
 }
-
 .sidebar-radio.offline .card {
   background: none;
 }
-
 .sidebar-radio.offline .menu .indicator.offline {
   display: inline-block !important;
 }
-
-.sidebar-radio.offline .menu .indicator.online,
-.sidebar-radio.offline .menu .time {
+.sidebar-radio.offline .menu .indicator.online, .sidebar-radio.offline .menu .time {
   display: none;
 }
-
-.sidebar-radio.offline .channel-name,
-.sidebar-radio.offline .description,
-.sidebar-radio.offline .contacts,
-.sidebar-radio.offline .broadcasters {
+.sidebar-radio.offline .channel-name, .sidebar-radio.offline .description, .sidebar-radio.offline .contacts, .sidebar-radio.offline .broadcasters {
   display: none;
 }
-
 .sidebar-radio.offline .player {
   background-image: none !important;
 }
-
 .sidebar-radio.offline .player .title {
   font-size: 22px;
   line-height: 25px;
 }
-
 .sidebar-radio.offline .player .artist {
   display: none;
 }
-
 .sidebar-radio.error .error-wrapper {
   display: block;
 }
-
 .sidebar-radio .error-wrapper {
   top: 0;
   left: 0;
@@ -84,34 +64,27 @@
   border-radius: 0 !important;
   padding: 50px 75px 0;
 }
-
-.sidebar-radio .error-wrapper h3,
-.sidebar-radio .error-wrapper p,
-.sidebar-radio .error-wrapper .column {
+.sidebar-radio .error-wrapper h3, .sidebar-radio .error-wrapper p, .sidebar-radio .error-wrapper .column {
   color: inherit !important;
   padding: 0;
   margin: 0;
 }
-
 .sidebar-radio .error-wrapper h3 {
   line-height: 24px;
   margin-top: 2px;
   letter-spacing: 0.1px;
 }
-
 .sidebar-radio .error-wrapper p {
   font-family: var(--roboto-font);
   line-height: 16px;
   margin-top: 10px;
 }
-
 .sidebar-radio .error-wrapper button {
   margin-top: 20px;
   padding: 10px 34px;
   border-radius: 0;
   background: var(--primary-color);
 }
-
 .sidebar-radio .menu {
   margin: 0;
   height: 40px;
@@ -119,9 +92,7 @@
   font-family: var(--roboto-font);
   border-radius: 0 !important;
 }
-
-.sidebar-radio .menu > .indicator,
-.sidebar-radio .menu > .time {
+.sidebar-radio .menu > .indicator, .sidebar-radio .menu > .time {
   margin: 10px 0 10px 10px;
   border-radius: 0;
   font-size: 12px;
@@ -130,17 +101,14 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-
 .sidebar-radio .menu > .indicator.offline {
   display: none;
 }
-
 .sidebar-radio .menu > .right.menu .ui.icon {
   font-size: 12px;
   line-height: 14px;
   margin: 0;
 }
-
 .sidebar-radio .player {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(22, 22, 24, 0.384) 100%);
   height: 220px;
@@ -148,14 +116,12 @@
   text-align: center;
   color: var(--light-text-color);
 }
-
 .sidebar-radio .player > .title {
   text-align: center;
   padding: 34px 60px 0;
   font-size: 20px;
   font-family: var(--title-font);
 }
-
 .sidebar-radio .player > .artist {
   margin-top: 10px;
   font-weight: 500;
@@ -163,29 +129,23 @@
   letter-spacing: 0.4px;
   line-height: 18px;
 }
-
 .sidebar-radio .player .play-btn {
   margin-top: 20px;
 }
-
 .sidebar-radio .channel-name {
   padding: 4px 16px;
   font-family: var(--title-font);
 }
-
 .sidebar-radio .channel-name > img {
   width: 20px !important;
   height: 20px !important;
   margin-right: 7px;
 }
-
 .sidebar-radio .controls {
   padding: 3.5px 3px 0;
   margin: 0;
 }
-
-.sidebar-radio .controls > .quality > .quality-dropdown,
-.sidebar-radio .controls .volume > .sidebar-volume {
+.sidebar-radio .controls > .quality > .quality-dropdown, .sidebar-radio .controls .volume > .sidebar-volume {
   background: #FFFFFF;
   border: 1px solid var(--light-border-color);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
@@ -193,11 +153,9 @@
   min-width: 100%;
   border-radius: 2px;
 }
-
 .sidebar-radio .controls > .quality {
   padding-right: 20px !important;
 }
-
 .sidebar-radio .controls > .quality > .quality-dropdown {
   font-family: "Lato", sans-serif;
   font-weight: 500;
@@ -208,57 +166,46 @@
   min-height: 30px;
   margin-top: 6px;
 }
-
 .sidebar-radio .controls > .quality > .quality-dropdown > .menu {
   border: 1px solid var(--light-border-color);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
   font-family: var(--text-font);
   height: auto;
 }
-
 .sidebar-radio .controls > .quality > .quality-dropdown > .menu > .item {
   padding: 7px 8px 7px 14px !important;
   font-size: 12px;
   line-height: 14px;
 }
-
 .sidebar-radio .controls > .volume {
   padding-left: 0 !important;
 }
-
 .sidebar-radio .controls > .volume > .sidebar-volume {
   padding: 7px 12px 7px 12px;
   margin-top: 6px;
 }
-
 .sidebar-radio .controls > .volume > .sidebar-volume > .inner > .track {
   background: var(--border-color);
 }
-
 .sidebar-radio .controls > .volume > .sidebar-volume > .inner > .track-fill {
   background: var(--primary-color);
 }
-
 .sidebar-radio .controls > .volume > .sidebar-volume > .inner > .thumb {
   background: #1565D2;
 }
-
 .sidebar-radio .description {
   font-size: 12px;
   line-height: 16px;
   color: #7A7A7A !important;
   padding: 20px 16px 0;
 }
-
 .sidebar-radio .contacts {
   margin: 0px;
   padding: 13px 16px 0 16px;
 }
-
 .sidebar-radio .contacts .list {
   border-top: 0 !important;
 }
-
 .sidebar-radio .contacts .list > .item {
   margin-top: 12px;
   font-size: 12px;
@@ -266,11 +213,9 @@
   color: #7A7A7A;
   padding: 0 !important;
 }
-
 .sidebar-radio .contacts .list > .item:not(:first-child) {
   margin-left: 12px;
 }
-
 .sidebar-radio .broadcasters {
   padding: 8px 10px 5px 30px;
   display: flex;
@@ -278,36 +223,29 @@
   flex: 1;
   overflow: hidden;
 }
-
 .sidebar-radio .broadcasters .list {
   margin: 22px 0 0 0;
   flex: 1;
   overflow-y: scroll;
 }
-
 .sidebar-radio .broadcasters .list::-webkit-scrollbar {
   width: 5px;
   height: 5px;
 }
-
 .sidebar-radio .broadcasters .list::-webkit-scrollbar-track-piece {
   background: #fff;
 }
-
 .sidebar-radio .broadcasters .list .item {
   padding: 15px 0;
   margin-right: 13px;
 }
-
 .sidebar-radio .broadcasters .list .item:first-child {
   padding-top: 0;
 }
-
 .sidebar-radio .broadcasters .list .item > img {
   width: 34px;
   height: 34px;
 }
-
 .sidebar-radio .broadcasters .list .item > .content {
   font-family: var(--text-font);
   margin-left: 7px;
@@ -315,4 +253,3 @@
   line-height: 18px;
   color: #7A7A7A;
 }
-

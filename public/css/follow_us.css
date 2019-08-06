@@ -2,14 +2,12 @@
   max-width: 320px;
   margin: 0 auto;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button {
   border-radius: 2px;
   padding: 9px 19px 9px 45px !important;
   text-align: left;
   color: #ffffff;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button > .icon {
   top: 50%;
   background: none;
@@ -17,29 +15,22 @@
   height: auto;
   width: 45px;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button .text.small {
   font-size: 10px;
   font-weight: normal;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button.dribbble {
   background: #F65A91;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button.vimeo {
   background: #2EBEE7;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button.soundcloud {
   background: #FF722A;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button.behance {
   background: #156EFD;
 }
-
 .follow-us .widget-body .social-buttons .ui.labeled.icon.button.github {
   background: #3786C4;
 }
-

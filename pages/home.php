@@ -16,16 +16,16 @@
                     <div class="ui seven wide tablet five wide computer column extra">
                         <? include APP_DIR . '/partials/shows.php' ?>
                     </div>
-                
-
+                    
                     <div class="ui column sixteen wide">
                         <? include APP_DIR . '/partials/upcoming_events.php' ?>
                     </div>
-
+                    
                     <div class="ui nine wide tablet eleven wide computer column">
                         <? include APP_DIR . '/partials/latest_videos.php' ?>
                     </div>
-                    <div class="ui seven wide tablet five wide computer column extra">
+                    <div class="ui seven wide tablet five wide computer column">
+                        <? include APP_DIR . '/partials/weather.php' ?>
                         <? include APP_DIR . '/partials/follow_us.php' ?>
                     </div>
 

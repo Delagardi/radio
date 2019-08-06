@@ -64,34 +64,23 @@ span.ui.text.small {
 .ui.items > .item > .content > a.header,
 .ui.card > .content > .header,
 .ui.list > .item a.header,
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   color: var(--title-color);
   font-family: var(--title-font);
 }
-
 .ui.header:hover,
 .ui.items > .item > .content > a.header:hover,
 .ui.card > .content > .header:hover,
 .ui.list > .item a.header:hover,
-h1:hover,
-h2:hover,
-h3:hover,
-h4:hover,
-h5:hover {
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
   color: var(--title-color);
 }
 
-.ui.visible.wide.right.sidebar ~ .fixed,
-.ui.visible.wide.right.sidebar ~ .pusher {
+.ui.visible.wide.right.sidebar ~ .fixed, .ui.visible.wide.right.sidebar ~ .pusher {
   transform: translate3d(-360px, 0, 0);
 }
 
-.ui.wide.left.sidebar,
-.ui.wide.right.sidebar {
+.ui.wide.left.sidebar, .ui.wide.right.sidebar {
   width: 360px;
 }
 
@@ -101,13 +90,19 @@ h5:hover {
   padding-left: 28px;
   padding-right: 28px;
 }
-
+.widget h1 {
+  font-family: var(--title-font);
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
 .widget .widget-head.dividing.header {
   padding-bottom: 20px;
   margin-bottom: 30px;
   position: relative;
 }
-
 .widget .widget-head.dividing.header h2.ui.header {
   display: flex;
   justify-content: space-between;
@@ -118,7 +113,6 @@ h5:hover {
   color: var(--primary-color);
   margin-bottom: 0;
 }
-
 .widget .widget-head.dividing.header:after {
   content: "";
   display: block;
@@ -129,10 +123,8 @@ h5:hover {
   width: 30px;
   background-color: var(--primary-color);
 }
-
 .widget .widget-body .ui .meta {
   color: var(--text-color);
   margin-top: 0;
   margin-bottom: 0;
 }
-

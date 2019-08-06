@@ -2,12 +2,9 @@
   margin-bottom: 5px;
   overflow: hidden;
 }
-
 .most-viewed .widget-body .ui.items > .item > .image {
   width: 130px;
 }
-
 .most-viewed .widget-body .ui.items > .item > .image + .content {
   padding-left: 15px;
 }
-

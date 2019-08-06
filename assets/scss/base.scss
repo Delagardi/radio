@@ -90,6 +90,15 @@ h1, h2, h3, h4, h5 {
         padding-right: 28px;
     }
 
+    h1 { 
+        font-family: var(--title-font);
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--primary-color);
+        margin-bottom: 0;
+    }
+
     & .widget-head.dividing.header {
         padding-bottom: 20px;
         margin-bottom: 30px;

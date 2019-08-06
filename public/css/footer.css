@@ -6,23 +6,19 @@
   flex-shrink: 0;
   margin-top: 80px;
 }
-
 .footer .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
 .footer .container .copy {
   font-size: 12px;
   line-height: 14px;
   color: var(--light-text-color);
 }
-
 .footer .container .copy .copyright {
   font-size: 14px;
   line-height: 16px;
   margin-right: 10px;
 }
-
