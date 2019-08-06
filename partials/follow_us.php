@@ -1,82 +1,100 @@
 <div class="ui segment padded widget follow-us">
     <div class="widget-head ui dividing header">
-        <h1>Follow Us</h1>
-        <i class="thumbs outline up icon badge"></i>
+        <h2 class="ui header primary">
+            Follow Us
+            <i class="thumbs outline up icon small fitted"></i>
+        </h2>
     </div>
     <div class="widget-body">
         <div class="social-buttons">
             <div class="ui two column grid">
                 <div class="column">
-                    <button class="ui facebook button fluid">
+                    <button class="ui labeled icon facebook button fluid">
                         <i class="facebook square icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">14,032</div>
-                            <div class="label">Fans</div>
-                        </div>
-                    </button>
-                    <button class="ui google plus button fluid">
-                        <i class="google square icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">10,799</div>
-                            <div class="label">Followers</div>
-                        </div>
-                    </button>
-                    <button class="ui vimeo button fluid">
-                        <i class="vimeo inverted icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">1,425</div>
-                            <div class="label">Followers</div>
-                        </div>
-                    </button>
-                    <button class="ui soundcloud button fluid">
-                        <i class="soundcloud inverted icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">99,814</div>
-                            <div class="label">Followers</div>
-                        </div>
-                    </button>
-                    <button class="ui instagram inverted button fluid">
-                        <i class="instagram icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">2,353</div>
-                            <div class="label">Followers</div>
+                        <div class="stats">
+                            <span class="ui text medium">14,032</span><br/>
+                            <span class="ui text small">Fans</span>
                         </div>
                     </button>
                 </div>
                 <div class="column">
-                    <button class="ui twitter button fluid">
+                    <button class="ui labeled icon twitter button fluid">
                         <i class="twitter icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">927</div>
-                            <div class="label">Followers</div>
+                        <div class="stats">
+                            <span class="ui text medium">927</span><br/>
+                            <span class="ui text small">Followers</span>
                         </div>
                     </button>
-                    <button class="ui youtube button fluid">
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon google plus button fluid">
+                        <i class="google square icon"></i>
+                        <div class="stats">
+                            <span class="ui text medium">10,799</span><br/>
+                            <span class="ui text small">Followers</span>
+                        </div>
+                    </button>
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon youtube button fluid">
                         <i class="youtube icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">11,756</div>
-                            <div class="label">Followers</div>
+                        <div class="stats">
+                            <span class="ui text medium">11,756</span><br/>
+                            <span class="ui text small">Followers</span>
                         </div>
                     </button>
-                    <button class="ui dribbble button fluid">
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon vimeo button fluid">
+                        <i class="vimeo inverted icon"></i>
+                        <div class="stats">
+                            <span class="ui text medium">1,425</span><br/>
+                            <span class="ui text small">Followers</span>
+                        </div>
+                    </button>
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon dribbble button fluid">
                         <i class="dribbble inverted icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">55</div>
-                            <div class="label">Followers</div>
+                        <div class="stats">
+                            <span class="ui text medium">55</span><br/>
+                            <span class="ui text small">Followers</span>
                         </div>
                     </button>
-                    <button class="ui behance button fluid">
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon soundcloud button fluid">
+                        <i class="soundcloud inverted icon"></i>
+                        <div class="stats">
+                            <span class="ui text medium">99,814</span><br/>
+                            <span class="ui text small">Followers</span>
+                        </div>
+                    </button>
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon behance button fluid">
                         <i class="behance inverted icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">77,723</div>
-                            <div class="label">Followers</div>
+                        <div class="stats">
+                            <span class="ui text medium">77,723</span><br/>
+                            <span class="ui text small">Followers</span>
                         </div>
                     </button>
-                    <button class="ui github button fluid">
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon instagram inverted button fluid">
+                        <i class="instagram icon"></i>
+                        <div class="stats">
+                            <span class="ui text medium">2,353</span><br/>
+                            <span class="ui text small">Followers</span>
+                        </div>
+                    </button>
+                </div>
+                <div class="column">
+                    <button class="ui labeled icon github button fluid">
                         <i class="github inverted icon"></i>
-                        <div class="ui statistic mini inverted">
-                            <div class="value">742</div>
-                            <div class="label">Followers</div>
+                        <div class="stats">
+                            <span class="ui text medium">742</span><br/>
+                            <span class="ui text small">Followers</span>
                         </div>
                     </button>
                 </div>

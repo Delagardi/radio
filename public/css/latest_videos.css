@@ -30,6 +30,10 @@
   color: var(--light-text-color);
 }
 
+.latest-videos .widget-body .main-video .video-overlay .meta .popularity > span {
+  margin-left: 15px;
+}
+
 @media (max-width: 1200px) {
   .latest-videos .widget-body .main-video .video-overlay h1 {
     font-size: 2.2vw;

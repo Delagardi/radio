@@ -26,12 +26,16 @@
   margin-bottom: 5px;
 }
 
-.shows .ui.list .item h5 .artist {
+.shows .ui.list .item .ui.header .artist {
   color: var(--text-color);
   font-weight: normal;
 }
 
-.shows .ui.list .item h5 .artist:before {
+.shows .ui.list .item .ui.header .artist:before {
   content: " | ";
+}
+
+.shows .ui.list .item a.header {
+  color: var(--title-color) !important;
 }
 

@@ -1,11 +1,13 @@
 .most-viewed {
     .widget-body {
         .ui.items > .item {
-            font-size: 12px;
+            .meta {
+                margin-bottom: 5px;
+                overflow: hidden;
+            }
             
             & > .image {
                 width: 130px;
-
                 + .content {
                     padding-left: 15px;
                 }

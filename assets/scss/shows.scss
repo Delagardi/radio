@@ -24,13 +24,17 @@
                 margin-bottom: 5px;
             }
 
-            h5 .artist {
+            .ui.header .artist {
                 color: var(--text-color);
                 font-weight: normal;
 
                 &:before {
                     content: " | ";
                 }
+            }
+
+            a.header {
+                color: var(--title-color) !important;
             }
         }
     }

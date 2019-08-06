@@ -7,6 +7,7 @@
         <? include APP_DIR . '/partials/sidebar_radio.php' ?>
         <div class="pusher">
             <? include APP_DIR . '/partials/header.php' ?>
+            <div class="ui divider hidden"></div>
             <div class="ui container">
                 <div class="ui grid stackable">
                     <div class="ui nine wide tablet eleven wide computer column">

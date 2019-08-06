@@ -1,12 +1,14 @@
 <div class="ui segment fitted basic widget upcoming-events">
     <div class="widget-head ui dividing header">
-        <h1>Upcoming Events</h1>
-        <i class="calendar outline icon badge"></i>
+        <h2 class="ui header primary">
+            Upcoming Events
+            <i class="calendar outline icon small fitted"></i>
+        </h2>
     </div>
     <div class="widget-body">
         <div class="ui three column grid stackable">
             <div class="column">
-                <div class="ui card">
+                <div class="ui card fluid">
                     <div class="image">
                         <div class="ui placeholder" style="height:216px;">
                             <div class="image"></div>
@@ -16,7 +18,9 @@
                     <div class="content">
                         <span class="right floated likes">20</span>
                         <i class="right floated thumbs up icon"></i>
-                        <h3>EDM Festival</h3>
+                        <div class="title">
+                            <a href="#" class="ui header medium">EDM Festival</a>
+                        </div>
                         <div class="event-labels">
                             <span class="ui inverted label">
                                 <i class="calendar icon"></i> Mar 26, 2019
@@ -25,14 +29,14 @@
                                 <i class="clock icon"></i> 08:00
                             </span>
                         </div>
-                        <div class="short-description">
+                        <div class="description">
                         Art festival of sound in time that expresses ideas and emotions in significant form through the elements of rhythm, melody and colour.
                         </div>
                     </div>
                 </div>
             </div>
             <div class="column">
-                <div class="ui card">
+                <div class="ui card fluid">
                     <div class="image">
                         <div class="ui placeholder" style="height:216px;">
                             <div class="image"></div>
@@ -42,7 +46,9 @@
                     <div class="content">
                         <span class="right floated likes">34</span>
                         <i class="right floated thumbs up icon"></i>
-                        <h3>Spring Break Camp</h3>
+                        <div class="title">
+                            <a href="#" class="ui header medium">Spring Break Camp</a>
+                        </div>
                         <div class="event-labels">
                             <span class="ui inverted label">
                                 <i class="calendar icon"></i> Mar 30, 2019
@@ -51,14 +57,14 @@
                                 <i class="clock icon"></i> 16:00
                             </span>
                         </div>
-                        <div class="short-description">
+                        <div class="description">
                         The Vega string quartet, quartet in residence at Emory University, is the talk of the chamber music community and internationally renowned.
                         </div>
                     </div>
                 </div>
             </div>
             <div class="column">
-                <div class="ui card">
+                <div class="ui card fluid">
                     <div class="image">
                         <div class="ui placeholder" style="height:216px;">
                             <div class="image"></div>
@@ -68,7 +74,9 @@
                     <div class="content">
                         <span class="right floated likes">20</span>
                         <i class="right floated thumbs up icon"></i>
-                        <h3>EDM Festival</h3>
+                        <div class="title">
+                            <a href="#" class="ui header medium">EDM Festival</a>
+                        </div>
                         <div class="event-labels">
                             <span class="ui inverted label">
                                 <i class="calendar icon"></i> Apr 14, 2019
@@ -77,7 +85,7 @@
                                 <i class="clock icon"></i> 18:30
                             </span>
                         </div>
-                        <div class="short-description">
+                        <div class="description">
                         Acclaimed for his artistry and technical brilliance, 50 artist will be performing on this events sorrounded of magical escenarias an neon ligths.
                         </div>
                     </div>

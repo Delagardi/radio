@@ -3,51 +3,43 @@
   margin: 0 auto;
 }
 
-.follow-us .widget-body .social-buttons .button {
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button {
   border-radius: 2px;
-  margin-bottom: 20px;
-  padding: 9px 19px;
+  padding: 9px 19px 9px 45px !important;
   text-align: left;
-  display: flex;
-  align-items: center;
+  color: #ffffff;
 }
 
-.follow-us .widget-body .social-buttons .button:last-child {
-  margin-bottom: 0;
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button > .icon {
+  top: 50%;
+  background: none;
+  transform: translateY(-50%);
+  height: auto;
+  width: 45px;
 }
 
-.follow-us .widget-body .social-buttons .button.dribbble {
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button .text.small {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button.dribbble {
   background: #F65A91;
 }
 
-.follow-us .widget-body .social-buttons .button.vimeo {
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button.vimeo {
   background: #2EBEE7;
 }
 
-.follow-us .widget-body .social-buttons .button.soundcloud {
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button.soundcloud {
   background: #FF722A;
 }
 
-.follow-us .widget-body .social-buttons .button.behance {
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button.behance {
   background: #156EFD;
 }
 
-.follow-us .widget-body .social-buttons .button.github {
+.follow-us .widget-body .social-buttons .ui.labeled.icon.button.github {
   background: #3786C4;
-}
-
-.follow-us .widget-body .social-buttons .button .ui.statistic {
-  margin: 0 0 0 10px;
-}
-
-.follow-us .widget-body .social-buttons .button .ui.statistic .value {
-  font-size: 14px !important;
-  text-align: left;
-}
-
-.follow-us .widget-body .social-buttons .button .ui.statistic .label {
-  font-size: 10px;
-  text-transform: none;
-  text-align: left;
 }
 

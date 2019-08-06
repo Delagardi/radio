@@ -1,5 +1,6 @@
-.most-viewed .widget-body .ui.items > .item {
-  font-size: 12px;
+.most-viewed .widget-body .ui.items > .item .meta {
+  margin-bottom: 5px;
+  overflow: hidden;
 }
 
 .most-viewed .widget-body .ui.items > .item > .image {

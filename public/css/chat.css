@@ -64,11 +64,6 @@
   line-height: 12px;
 }
 
-.chat .form {
-  display: flex;
-  justify-content: space-between;
-}
-
 .chat .form .field.input {
   margin-bottom: 0;
   margin-right: 25px;

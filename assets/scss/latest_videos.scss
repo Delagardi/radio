@@ -26,6 +26,9 @@
 
                 .meta {
                     color: var(--light-text-color);
+                    .popularity > span {
+                        margin-left: 15px;
+                    }
                 }
 
                 @media(max-width: 1200px) {
