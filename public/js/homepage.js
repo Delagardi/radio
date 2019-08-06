@@ -96,7 +96,7 @@
 $(function () {
   $('.navigation button.play').on('click', function (e) {
     e.preventDefault();
-    $('.sidebar-radio').sidebar('toggle');
+    $('.sidebar-radio').sidebar('show');
   });
 });
 

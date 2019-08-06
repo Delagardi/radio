@@ -1,29 +1,41 @@
-<div class="sidebar-radio ui right vertical sidebar wide">
+<div class="sidebar-radio error ui right vertical sidebar wide">
     <div class="ui card">
-        <div class="ui menu mini">
-            <div class="ui label small red indicator">Live</div>
-            <div class="ui label black time">14:00 - 15:30</div>
-            <div class="right menu">
-                <div class="item">
-                    <i class="ui expand icon"></i>
+        <div class="error-wrapper">
+            <div class="ui three column centered grid">
+                <div class="column row">
+                    <h3>The current show can't be played.</h3>
                 </div>
-                <div class="item">
-                    <i class="ui close icon"></i>
+                <div class="column row">
+                    <p>Look like we’re having technical issues with the player. Please try again in a few hours.<p>
+                </div>
+                <div class="column row">
+                    <button class="ui blue button close">Close</button>
                 </div>
             </div>
         </div>
+        <div class="ui menu mini">
+            <div class="ui label small black indicator offline">Station Currently OFF-AIR</div>
+            <div class="ui label small red indicator online">Live</div>
+            <div class="ui label small black time">14:00 - 15:30</div>
+            <div class="right menu">
+                <a class="item" href="#">
+                    <i class="ui expand icon"></i>
+                </a>
+                <a class="item close" href="#">
+                    <i class="ui close icon"></i>
+                </a>
+            </div>
+        </div>
 
-        <div class="image">
-            <div class="player" style="background-image: url('<?= url('images/sidebar_radio/album-image.png') ?>')" >
-                <h3 class="ui header inverted title">
-                    Pure American Country Radio Show
-                </h3>
-                <div class="artist">
-                    ARTIST - TRACK NAME - 03:28
-                </div>
-                <div class="play-btn">
-                    <i class="play circle outline icon huge"></i>
-                </div>
+        <div class="player" style="background-image: url('<?= url('images/sidebar_radio/album-image.png') ?>')" >
+            <h3 class="ui header inverted title">
+                Pure American Country Radio Show
+            </h3>
+            <div class="artist">
+                ARTIST - TRACK NAME - 03:28
+            </div>
+            <div class="play-btn">
+                <i class="play circle outline icon huge"></i>
             </div>
         </div>
 
