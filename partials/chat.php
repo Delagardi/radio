@@ -1,7 +1,9 @@
 <div class="ui segment padded widget chat">
     <div class="widget-head ui dividing header">
-        <h1>Chat</h1>
-        <i class="comments outline icon badge"></i>
+        <h2 class="ui header primary">
+            Chat
+            <i class="comments outline icon small fitted"></i>
+        </h2>
     </div>
     <div class="widget-body">
         <div class="ui comments">
@@ -112,10 +114,16 @@
         </div>
 
         <div class="ui form">
-            <div class="field input">
-                <input type="text" placeholder="Type your message...">
+            <div class="ui segments horizontal basic">
+                <div class="ui segment basic fitted">
+                    <div class="field input">
+                        <input type="text" placeholder="Type your message...">
+                    </div>
+                </div>
+                <div class="ui segment basic compact fitted">
+                    <div class="ui submit primary button icon"><i class="send icon"></i></div>
+                </div>
             </div>
-            <div class="ui submit primary button icon"><i class="send icon"></i></div>
         </div>
     </div>
 </div>

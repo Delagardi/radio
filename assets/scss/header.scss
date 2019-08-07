@@ -37,7 +37,6 @@
             .live-status {
                 display: flex;
                 justify-content: flex-end;
-                text-align: right;
                 align-items: flex-end;
                 line-height: 0;
             }
@@ -52,10 +51,6 @@
                     text-overflow: ellipsis;
                     overflow: hidden;
                 }
-            }
-
-            .buttons {
-                padding: 15px 0;
             }
         }
 

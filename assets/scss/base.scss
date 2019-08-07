@@ -30,31 +30,6 @@ body.pushable > .pusher {
     overflow: visible;
 }
 
-h1, h2, h3, h4, h5 {
-    color: var(--title-color);
-    font-family: var(--title-font);
-}
-
-h2, h3, h4, h5 {
-    margin: 0;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 21px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-h4 {
-    font-size: 14px;
-}
-
 .ui.grid {
     margin-top: -10px;
     margin-bottom: -10px;
@@ -63,9 +38,11 @@ h4 {
 }
 
 .ui.grid > .column:not(.row), 
-.ui.grid > .row>.column {
+.ui.grid > .row > .column {
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ui.items > .item .meta {
@@ -77,6 +54,23 @@ h4 {
     width: 100%;
     box-shadow: none;
     border: 1px solid var(--border-color);
+}
+
+span.ui.text.small {
+    font-size: 12px;
+}
+
+.ui.header,
+.ui.items >.item > .content > a.header,
+.ui.card > .content > .header,
+.ui.list > .item a.header,
+h1, h2, h3, h4, h5 {
+    color: var(--title-color);
+    font-family: var(--title-font);
+
+    &:hover {
+        color: var(--title-color);
+    }
 }
 
 .ui.visible.wide.right.sidebar~.fixed, .ui.visible.wide.right.sidebar~.pusher {
@@ -96,25 +90,27 @@ h4 {
         padding-right: 28px;
     }
 
+    h1 { 
+        font-family: var(--title-font);
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--primary-color);
+        margin-bottom: 0;
+    }
+
     & .widget-head.dividing.header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding-bottom: 20px;
         margin-bottom: 30px;
         position: relative;
-
-        .icon.badge {
-            color: var(--primary-color);
-            font-size: 1em;
-        }
         
-        h1 { 
-            font-family: var(--title-font);
-            font-style: normal;
-            font-weight: 600;
+        h2.ui.header { 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             font-size: 20px;
             line-height: 30px;
+            font-weight: 600;
             color: var(--primary-color);
             margin-bottom: 0;
         }
@@ -135,27 +131,7 @@ h4 {
         .ui .meta {
             color: var(--text-color);
             margin-top: 0;
-
-            &.stats {
-                display: flex;
-                justify-content: space-between;
-
-                .popularity {
-                    display: flex;
-                    align-items: center;
-            
-                    .item {
-                        margin: 0 10px 0 0;
-                        align-items: center;
-                        font-size: 1em;
-                        line-height: 1.16em;
-            
-                        &:last-of-type {
-                            margin: 0;
-                        }
-                    }
-                }
-            }
+            margin-bottom: 0;
         }
     }
 }

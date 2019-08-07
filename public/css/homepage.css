@@ -2,17 +2,13 @@
   .homepage .ui .column.extra:nth-of-type(2) {
     order: 7;
   }
-
   .homepage .ui .column.extra:nth-of-type(5) {
     order: 8;
   }
-
   .homepage .ui .column.extra:nth-of-type(7) {
     order: 9;
   }
-
   .homepage .ui .column.extra:nth-of-type(10) {
     order: 10;
   }
 }
-

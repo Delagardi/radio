@@ -15,6 +15,7 @@ mix
     .sass('assets/scss/latest_videos.scss', 'public/css/')
     .sass('assets/scss/sidebar_radio.scss', 'public/css/')
     .sass('assets/scss/homepage.scss', 'public/css/')
+    .sass('assets/scss/weather.scss', 'public/css/').options({processCssUrls: false})
     .copy('assets/lib/semantic/dist/semantic.min.css', 'public/lib/semantic/')
     .copy('assets/lib/semantic/dist/semantic.min.js', 'public/lib/semantic/')
     .copy('assets/lib/jquery/jquery.min.js', 'public/lib/jquery')
@@ -38,6 +39,7 @@ mix
         'public/css/latest_videos.css',
         'public/css/sidebar_radio.css',
         'public/css/homepage.css',
+        'public/css/weather.css',
     ], 'public/css/radio.css')
     .scripts([
         'public/js/core.js',

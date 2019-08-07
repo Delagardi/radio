@@ -274,10 +274,21 @@ $(function () {
 
 /***/ }),
 
+/***/ "./assets/scss/weather.scss":
+/*!**********************************!*\
+  !*** ./assets/scss/weather.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ./assets/scss/homepage.scss ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ./assets/scss/homepage.scss ./assets/scss/weather.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -295,7 +306,8 @@ __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/shows.scss */"./assets/scss/shows.scss");
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_videos.scss */"./assets/scss/latest_videos.scss");
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
-module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/homepage.scss */"./assets/scss/homepage.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/homepage.scss */"./assets/scss/homepage.scss");
+module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/weather.scss */"./assets/scss/weather.scss");
 
 
 /***/ })

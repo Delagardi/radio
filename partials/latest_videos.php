@@ -1,7 +1,9 @@
 <div class="ui segment widget latest-videos padded">
     <div class="widget-head ui dividing header">
-        <h1>Latest Videos</h1>
-        <i class="file video outline icon badge"></i>
+        <h2 class="ui header primary">
+            Latest Videos
+            <i class="file video outline icon small fitted"></i>
+        </h2>
     </div>
     <div class="widget-body">
         <div class="main-video">
@@ -14,24 +16,26 @@
 
             <div class="video-overlay ui segment basic padded">
                 <h1 class="ui header inverted">Play this Game for Free on Steam This Weekend</h1>
-                <div class="meta stats">
-                    <div class="date">
-                        <i class="small calendar icon"></i>
-                        <span class="ui text small">Apr 3, 2018</span>
+                <div class="meta ui segments horizontal basic">
+                    <div class="date segment ui basic fitted ui text">
+                        <span class="ui text">
+                            <i class="calendar icon"></i>
+                            <span>Apr 3, 2018</span>
+                        </span>
                     </div>
-                    <div class="popularity">
-                        <div class="item">
-                            <i class="small comments icon"></i>
-                            <span class="ui text small">8</span>
-                        </div>
-                        <div class="item">
+                    <div class="popularity segment ui basic right aligned fitted">
+                        <span class="comments ui text">
+                            <i class="comments icon"></i>
+                            <span>8</span>
+                        </span>
+                        <span class="thumbs ui text">
                             <i class="thumbs up icon"></i>
-                            <span class="ui text small">4</span>
-                        </div>
-                        <div class="item">
+                            <span>4</span>
+                        </span>
+                        <span class="viewes ui text">
                             <i class="eye icon"></i>
-                            <span class="ui text small">12</span>
-                        </div>
+                            <span>12</span>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -45,27 +49,31 @@
                         data-icon="play circle outline">
                     </div>
                     <div class="content">
-                        <div class="meta stats">
-                            <div class="date">
-                                <i class="small calendar icon"></i>
-                                <span class="small">Apr 1, 2019</span>
+                        <div class="meta ui segments horizontal basic">
+                            <div class="date segment ui basic fitted ui text small">
+                                <span class="ui text small">
+                                    <i class="calendar icon"></i>
+                                    <span>Apr 1, 2019</span>
+                                </span>
                             </div>
-                            <div class="popularity">
-                                <div class="item">
-                                    <i class="small comments icon"></i>
-                                    <span class="small">5</span>
-                                </div>
-                                <div class="item">
-                                    <i class="small thumbs up icon"></i>
-                                    <span class="small">9</span>
-                                </div>
-                                <div class="item">
-                                    <i class="small eye icon"></i>
-                                    <span class="small">15</span>
-                                </div>
+                            <div class="popularity segment ui basic right aligned fitted">
+                                <span class="comments ui text small">
+                                    <i class="comments icon"></i>
+                                    <span>5</span>
+                                </span>
+                                <span class="thumbs ui text small">
+                                    <i class="thumbs up icon"></i>
+                                    <span>9</span>
+                                </span>
+                                <span class="viewes ui text small">
+                                    <i class="eye icon"></i>
+                                    <span>15</span>
+                                </span>
                             </div>
                         </div>
-                        <h4>At Value-Focused Hotels, the Free Breakfast Gets Bigger</h4>
+                        <div class="title">
+                            <a href="#" class="ui header small">At Value-Focused Hotels, the Free Breakfast Gets Bigger</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,27 +84,31 @@
                         data-icon="play circle outline">
                     </div>
                     <div class="content">
-                        <div class="meta stats">
-                            <div class="date">
-                                <i class="small calendar icon"></i>
-                                <span class="small">Apr 1, 2019</span>
+                        <div class="meta ui segments horizontal basic">
+                            <div class="date segment ui basic fitted ui text small">
+                                <span class="ui text small">
+                                    <i class="calendar icon"></i>
+                                    <span>Mar 23, 2019</span>
+                                </span>
                             </div>
-                            <div class="popularity">
-                                <div class="item">
-                                    <i class="small comments icon"></i>
-                                    <span class="small">5</span>
-                                </div>
-                                <div class="item">
-                                    <i class="small thumbs up icon"></i>
-                                    <span class="small">9</span>
-                                </div>
-                                <div class="item">
-                                    <i class="small eye icon"></i>
-                                    <span class="small">15</span>
-                                </div>
+                            <div class="popularity segment ui basic right aligned fitted">
+                                <span class="comments ui text small">
+                                    <i class="comments icon"></i>
+                                    <span>6</span>
+                                </span>
+                                <span class="thumbs ui text small">
+                                    <i class="thumbs up icon"></i>
+                                    <span>5</span>
+                                </span>
+                                <span class="viewes ui text small">
+                                    <i class="eye icon"></i>
+                                    <span>10</span>
+                                </span>
                             </div>
                         </div>
-                        <h4>At Value-Focused Hotels, the Free Breakfast Gets Bigger</h4>
+                        <div class="title">
+                            <a href="#" class="ui header small">Failure is the condiment that gives success its flavor</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,27 +119,31 @@
                         data-icon="play circle outline">
                     </div>
                     <div class="content">
-                        <div class="meta stats">
-                            <div class="date">
-                                <i class="small calendar icon"></i>
-                                <span class="small">Apr 1, 2019</span>
+                        <div class="meta ui segments horizontal basic">
+                            <div class="date segment ui basic fitted ui text small">
+                                <span class="ui text small">
+                                    <i class="calendar icon"></i>
+                                    <span>Mar 14, 2019</span>
+                                </span>
                             </div>
-                            <div class="popularity">
-                                <div class="item">
-                                    <i class="small comments icon"></i>
-                                    <span class="small">5</span>
-                                </div>
-                                <div class="item">
-                                    <i class="small thumbs up icon"></i>
-                                    <span class="small">9</span>
-                                </div>
-                                <div class="item">
-                                    <i class="small eye icon"></i>
-                                    <span class="small">15</span>
-                                </div>
+                            <div class="popularity segment ui basic right aligned fitted">
+                                <span class="comments ui text small">
+                                    <i class="comments icon"></i>
+                                    <span>9</span>
+                                </span>
+                                <span class="thumbs ui text small">
+                                    <i class="thumbs up icon"></i>
+                                    <span>25</span>
+                                </span>
+                                <span class="viewes ui text small">
+                                    <i class="eye icon"></i>
+                                    <span>34</span>
+                                </span>
                             </div>
                         </div>
-                        <h4>At Value-Focused Hotels, the Free Breakfast Gets Bigger</h4>
+                        <div class="title">
+                            <a href="#" class="ui header small">Les nouveaux maillots du Real Madrid pour la saison</a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -2,36 +2,31 @@
   margin-left: 5px;
   border-left: 2px solid var(--border-color);
 }
-
 .shows .ui.list .item {
   margin-left: -6px;
   margin-bottom: 10px;
 }
-
 .shows .ui.list .item:first-child > .icon {
   top: -4px;
   position: relative;
 }
-
 .shows .ui.list .item:first-child > .icon:before {
   background: #ffffff !important;
 }
-
 .shows .ui.list .item > .icon {
   font-size: 8px;
 }
-
 .shows .ui.list .item .meta {
   font-size: 12px;
   margin-bottom: 5px;
 }
-
-.shows .ui.list .item h5 .artist {
+.shows .ui.list .item .ui.header .artist {
   color: var(--text-color);
   font-weight: normal;
 }
-
-.shows .ui.list .item h5 .artist:before {
+.shows .ui.list .item .ui.header .artist:before {
   content: " | ";
 }
-
+.shows .ui.list .item a.header {
+  color: var(--title-color) !important;
+}

@@ -1,33 +1,27 @@
 .chat .widget-head.dividing.header {
   margin-bottom: 0;
 }
-
 .chat .ui.comments {
   max-height: 415px;
   max-width: 100%;
   overflow: auto;
   margin-bottom: 25px;
 }
-
 .chat .ui.comments > .comment {
   display: flex;
   align-items: flex-end;
 }
-
 .chat .ui.comments > .comment:first-child {
   margin: 0.5em 0 0;
   padding: 0.5em 0 0;
 }
-
 .chat .ui.comments > .comment .text {
   font-size: 12px;
   margin: 0;
 }
-
 .chat .ui.comments > .comment > .avatar {
   align-self: unset;
 }
-
 .chat .ui.comments > .comment > .avatar ~ .content {
   margin-left: 15px;
   max-width: 75%;
@@ -36,16 +30,13 @@
   border-radius: 5px 5px 5px 0;
   display: inline-block;
 }
-
 .chat .ui.comments > .comment > .avatar ~ .content .author {
   color: var(--text-color);
 }
-
 .chat .ui.comments > .comment > .avatar ~ .content.highlighted {
   background: rgba(252, 214, 81, 0.2);
   border-color: #FCD651;
 }
-
 .chat .ui.comments > .comment > .avatar ~ .content.highlighted .admin {
   font-weight: bold;
   font-size: 7px;
@@ -56,22 +47,14 @@
   margin-left: 5px;
   border-radius: 2px;
 }
-
 .chat .ui.comments > .comment > .avatar ~ .content .info {
   display: flex;
   justify-content: space-between;
   font-size: 10px;
   line-height: 12px;
 }
-
-.chat .form {
-  display: flex;
-  justify-content: space-between;
-}
-
 .chat .form .field.input {
   margin-bottom: 0;
   margin-right: 25px;
   flex: 1 1 auto;
 }
-

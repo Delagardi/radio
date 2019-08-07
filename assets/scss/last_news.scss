@@ -5,30 +5,27 @@
   } 
 
   .widget-head {
-    .submenu {
-      display: flex;
-      align-items: center;
-    
-      &-link {
+    .ui.text.menu {
+      margin: 0;
+      min-height: auto;
+
+      .item:not(.active) {
         color: var(--title-color);
-        padding: 0 10px;
-        font-size: 14px;
-    
-        &.active {
-          color: var(--primary-color);
-        }
       }
-    
-      &-nav {
-        color: var(--text-color);
-        padding: 0 10px;
+      
+      &.arrows {
+        font-size: 20px;
+        min-height: auto;
+        .item {
+          color: var(--text-color);
+        }
       }
     }
   }
 
   .widget-body {
-    .label {
-      position: absolute;
+    .ui.label.floating {
+      transform: none;
       top: 10px;
       left: 8px;
     }
@@ -44,7 +41,6 @@
 
       .item .meta {
         margin-bottom: 5px;
-        font-size: 12px;
       }
     }
 
@@ -56,10 +52,6 @@
       .label {
         top: 30px; 
         left: 30px;
-      }
-
-      .meta.stats {
-        padding: 13px 0 10px;
       }
     }
   }

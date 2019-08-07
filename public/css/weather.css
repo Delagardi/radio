@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.weather {
+  background: var(--primary-color) !important;
+  padding: 20px 25px !important;
+}
+.weather .title h1 {
+  color: #FFFFFF;
+}
+.weather .principal, .weather .info {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.weather .principal h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.weather .principal h3 {
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.weather .info h2 {
+  font-size: 55px;
+  line-height: 55px;
+  color: #FFFFFF;
+  position: relative;
+}
+.weather .info h2::after {
+  content: "\2103";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  position: absolute;
+  top: 0;
+  padding-left: 5px;
+}
+.weather .info .list {
+  display: inline-block;
+  text-align: left;
+}
+.weather .info .list .item {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: var(--title-font);
+  color: #FFFFFF;
+  position: relative;
+  padding-left: 15px;
+}
+.weather .info .list .item.thermometer::before, .weather .info .list .item.humidity::before, .weather .info .list .item.wind::before {
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -5px;
+  background-position-x: center;
+  background-position-y: bottom;
+  width: 13px;
+  bottom: 4px;
+}
+.weather .info .list .item.thermometer::before {
+  background-image: url("../images/weather/thermometer.png");
+  height: 13px;
+}
+.weather .info .list .item.humidity::before {
+  background-image: url("../images/weather/humidity.png");
+  height: 12px;
+}
+.weather .info .list .item.wind::before {
+  background-image: url("../images/weather/wind.png");
+  height: 11px;
+}
+.weather .days .forecast {
+  position: relative;
+  padding-top: 35px;
+  padding-right: 7px;
+}
+.weather .days .forecast::before {
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -5px;
+  background-position-x: center;
+  background-position-y: center;
+  height: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.weather .days .forecast.sun::before {
+  background-image: url("../images/weather/sun-white.png");
+}
+.weather .days .forecast.cloudy::before {
+  background-image: url("../images/weather/cloudy-white.png");
+  height: 26px;
+}
+.weather .days .forecast.rainy::before {
+  background-image: url("../images/weather/rainy-white.png");
+  height: 35px;
+}
+.weather .days .forecast::after {
+  content: "\2103";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 1px;
+}
+.weather .days h2 {
+  font-family: var(--title-font);
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 18px;
+}

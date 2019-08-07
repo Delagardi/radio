@@ -1,7 +1,9 @@
 <div class="ui segment widget survey padded">
     <div class="widget-head ui dividing header">
-        <h1>Survey</h1>
-        <i class="list icon badge"></i>
+        <h2 class="ui header primary">
+            Survey
+            <i class="list icon small fitted"></i>
+        </h2>
     </div>
     <div class="widget-body">
         <div class="ui form survey-radiobuttons">

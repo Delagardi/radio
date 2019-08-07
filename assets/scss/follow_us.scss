@@ -4,16 +4,23 @@
             max-width: 320px;
             margin: 0 auto;
 
-            .button {
+            .ui.labeled.icon.button {
                 border-radius: 2px;
-                margin-bottom: 20px;
-                padding: 9px 19px;
+                padding: 9px 19px 9px 45px !important;
                 text-align: left;
-                display: flex;
-                align-items: center;
+                color: #ffffff;
 
-                &:last-child {
-                    margin-bottom: 0;
+                > .icon {
+                    top: 50%;
+                    background: none;
+                    transform: translateY(-50%);
+                    height: auto; 
+                    width: 45px;
+                }
+
+                .text.small {
+                    font-size: 10px;
+                    font-weight: normal;
                 }
 
                 &.dribbble {
@@ -34,20 +41,6 @@
 
                 &.github {
                     background: #3786C4;
-                }
-
-                .ui.statistic {
-                    margin: 0 0 0 10px;
-                    .value {
-                        font-size: 14px !important;
-                        text-align: left;
-                    }
-
-                    .label {
-                        font-size: 10px;
-                        text-transform: none;
-                        text-align: left;
-                    }
                 }
             }
         }

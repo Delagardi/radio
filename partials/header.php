@@ -3,7 +3,7 @@
         <div class="ui container">
             <div class="ui label red item">CHANNEL</div>
             <div class="ui dropdown icon item">
-                <img src="<?= url('images/header/hq_logo.svg') ?>">
+                <img class="ui avatar image" src="<?= url('images/header/hq_logo.svg') ?>">
                 <div class="text">Radio 3 Shuttle</div>
                 <i class="dropdown icon"></i>
             </div>
@@ -28,7 +28,7 @@
                 </div>
                 <div class="column live">
                     <div class="ui horizontal basic segments">
-                        <div class="ui segment fitted basic live-status">
+                        <div class="ui segment right aligned fitted basic live-status">
                             <div class="items">
                                 <div class="item">
                                     <div class="ui label small red">LIVE</div>
@@ -42,9 +42,11 @@
                             </div>
                         </div>
                         <div class="ui segment basic compact fitted">
-                            <div class="ui buttons">
-                                <div class="ui tiny button">On Air</div>
-                                <div class="ui basic tiny button">Coming Up</div>
+                            <div class="ui segment basic fitted">
+                                <div class="ui buttons">
+                                    <div class="ui tiny button">On Air</div>
+                                    <div class="ui basic tiny button">Coming Up</div>
+                                </div>
                             </div>
                             <div class="song-info">
                                 <h5>Pure American Country Radio Show</h5>

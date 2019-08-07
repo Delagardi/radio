@@ -2,20 +2,13 @@
   display: flex;
   flex: 1 1 auto;
 }
-
 .latest-galleries .widget-head .arrows {
   font-size: 20px;
+  color: var(--text-color);
 }
-
 .latest-galleries .card .content {
   padding: 0 20px 13px;
 }
-
 .latest-galleries .card > .image {
   border-radius: 0px !important;
 }
-
-.latest-galleries .card .meta.stats {
-  padding: 13px 0 10px;
-}
-
