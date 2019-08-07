@@ -405,6 +405,65 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.on-demand .widget-body .items > .item {
+  width: 100%;
+  max-width: 760px;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 2px;
+}
+@media (max-width: 767.98px) {
+  .on-demand .widget-body .items > .item {
+    padding: 15px;
+  }
+}
+.on-demand .widget-body .items > .item .image {
+  position: relative;
+}
+@media (max-width: 767.98px) {
+  .on-demand .widget-body .items > .item .image, .on-demand .widget-body .items > .item .image img {
+    width: 100% !important;
+    max-height: 100% !important;
+  }
+}
+.on-demand .widget-body .items > .item .image .icon {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: #FFFFFF;
+}
+@media (max-width: 991px) {
+  .on-demand .widget-body .items > .item .image .icon {
+    display: block;
+  }
+}
+.on-demand .widget-body .items > .item .image + [class*="middle aligned"].content .popularity, .on-demand .widget-body .items > .item .image + [class*="middle aligned"].content .date {
+  padding: 10px 0 0 10px;
+}
+@media (max-width: 767px) {
+  .on-demand .widget-body .items > .item .image + [class*="middle aligned"].content {
+    padding-bottom: 10px;
+    align-self: flex-start;
+  }
+  .on-demand .widget-body .items > .item .image + [class*="middle aligned"].content .popularity {
+    order: 3;
+  }
+}
+.on-demand .widget-body .items > .item .image + [class*="middle aligned"].content .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.on-demand .widget-body .items > .item .image + [class*="middle aligned"].content .title > a {
+  overflow-wrap: break-word;
+  white-space: nowrap;
+}
+.on-demand .widget-body .items > .item .image + [class*="middle aligned"].content button {
+  border-radius: 2px;
+}
 .latest-galleries .ui.grid > .column {
   display: flex;
   flex: 1 1 auto;

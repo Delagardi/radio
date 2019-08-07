@@ -41,6 +41,7 @@
                     </div>
 
                     <div class="ui nine wide tablet eleven wide computer column">
+                        <? include APP_DIR . '/partials/on_demand.php' ?>
                     </div>
                     <div class="ui seven wide tablet five wide computer column extra">
                         <? include APP_DIR . '/partials/survey.php' ?>
