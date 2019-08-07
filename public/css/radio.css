@@ -507,6 +507,60 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 .on-demand .widget-body .items > .item .image + [class*="middle aligned"].content button {
   border-radius: 2px;
 }
+.ui.modal.sign-in {
+  max-width: 400px;
+}
+.ui.modal.sign-in > .close {
+  top: 20px;
+  right: 20px;
+  color: #E5E5E5;
+  padding: 0;
+  margin: 0;
+}
+.ui.modal.sign-in .content {
+  padding: 57px 60px 30px !important;
+}
+.ui.modal.sign-in .content .forgot-password, .ui.modal.sign-in .content a.reset {
+  color: #000000;
+  text-decoration: underline;
+}
+.ui.modal.sign-in .content .field input {
+  border-radius: 2px;
+}
+.ui.modal.sign-in .content .button {
+  border-radius: 2px;
+}
+.ui.modal.sign-in .content .header {
+  margin-bottom: 28px;
+  font-family: var(--text-font);
+}
+.ui.modal.sign-in .content .divider {
+  color: var(--text-color);
+  text-transform: none;
+}
+.ui.modal.sign-in .content .oauth {
+  display: flex;
+  justify-content: space-between;
+}
+.ui.modal.sign-in .content .oauth .button {
+  border-radius: 5px;
+  color: var(--light-text-color);
+}
+.ui.modal.sign-in .content .oauth .button.facebook {
+  background: #5277CA;
+}
+.ui.modal.sign-in .content .oauth .button.twitter {
+  background: #38B7F3;
+}
+.ui.modal.sign-in .content .oauth .button.yahoo {
+  background: #9643E8;
+}
+.ui.modal.sign-in .content .oauth .button.windows {
+  background: #5277CA;
+}
+.ui.modal.sign-in .content .oauth .button.google {
+  background: #E85343;
+}
 .latest-galleries .ui.grid > .column {
   display: flex;
   flex: 1 1 auto;

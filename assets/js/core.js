@@ -36,4 +36,6 @@ $(() => {
             $(this).prop('disabled', true);
         });
     });
+
+    $('.button.sign-in').click(() => $('#sign_in_modal').modal('show'));
 });

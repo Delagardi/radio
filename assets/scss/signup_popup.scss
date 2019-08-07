@@ -1,0 +1,65 @@
+.ui.modal.sign-in {
+	max-width: 400px;
+
+	> .close {
+		top: 20px;
+		right: 20px;
+		color: #E5E5E5;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.content {
+		padding: 57px 60px 30px !important;
+
+		.forgot-password, a.reset {
+			color: #000000;
+			text-decoration: underline;
+		}
+		
+		.field {
+			input {
+				border-radius: 2px;
+			}
+		}
+		.button {
+			border-radius: 2px;
+		}
+
+		.header {
+			margin-bottom: 28px;
+			font-family: var(--text-font);
+		}
+
+		.divider {
+			color: var(--text-color);
+			text-transform: none;
+		}
+
+		.oauth {
+			display: flex;
+			justify-content: space-between;
+			
+			.button {
+				border-radius: 5px;
+				color: var(--light-text-color);
+
+				&.facebook {
+					background: #5277CA;
+				}
+				&.twitter {
+					background: #38B7F3;
+				}
+				&.yahoo {
+					background: #9643E8;
+				}
+				&.windows {
+					background: #5277CA;
+				}
+				&.google {
+					background: #E85343;
+				}
+			}
+		}
+	}
+}
