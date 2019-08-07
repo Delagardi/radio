@@ -349,6 +349,13 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
   margin-right: 25px;
   flex: 1 1 auto;
 }
+:root {
+  --checkbox-bg-color: #FAFAFA;
+  --checkbox-bg-color-hover: #EAF3FF;
+  --active-label-color: #161618;
+  --label-color: #7A7A7A;
+}
+
 .survey {
   width: 100%;
 }
@@ -358,6 +365,18 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 }
 .survey .survey-radiobuttons .field .checkbox {
   width: 100%;
+}
+.survey .survey-radiobuttons .field .checkbox label {
+  color: var(--label-color);
+  padding: 16px 5px 16px 47px;
+  background: #FAFAFA;
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+  font-weight: normal;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .survey .survey-radiobuttons .field .checkbox label:before, .survey .survey-radiobuttons .field .checkbox label:after {
   background: #FFFFFF;
@@ -380,6 +399,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
   border: 1px solid var(--primary-color);
   box-sizing: border-box;
   border-radius: 2px;
+  color: var(--active-label-color);
 }
 .survey .survey-radiobuttons .field .checkbox input:checked ~ label:before {
   background: var(--primary-color) !important;
@@ -388,22 +408,45 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 .survey .survey-radiobuttons .field .checkbox input:checked ~ label:after {
   background: #FFFFFF !important;
 }
-.survey .survey-radiobuttons .field .checkbox .buttons-groups button {
+.survey .survey-results {
+  display: none;
+}
+.survey .survey-results .field {
+  margin-top: 43px;
+}
+.survey .survey-results .field.active .progress {
+  background: #EAF3FF;
+  color: var(--active-label-color);
+}
+.survey .survey-results .field.active .progress .label {
+  color: var(--active-label-color);
+}
+.survey .survey-results .field .progress .label {
+  color: var(--label-color);
+  text-align: left;
+  top: -100%;
+  font-weight: normal;
+}
+.survey .survey-results .field .progress .bar {
+  position: static;
+}
+.survey .survey-results .field .progress .bar .progress {
+  color: var(--survey-text-color);
+}
+.survey .widget-body .button-groups {
+  margin-top: 20px;
+}
+.survey .widget-body .button-groups button {
   padding: 12px 18px;
 }
-.survey .survey-radiobuttons .field .checkbox .buttons-groups button[name=results] {
+.survey .widget-body .button-groups button[name=results] {
   margin-right: 20px;
 }
-.survey .survey-radiobuttons .field .label.answer-label {
-  padding: 16px 5px 16px 47px;
-  background: #FAFAFA;
-  border: 1px solid #E5E5E5;
-  border-radius: 2px;
-  font-weight: normal;
-  font-size: 15px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.survey .widget-body.results .survey-results {
+  display: block;
+}
+.survey .widget-body.results .survey-radiobuttons {
+  display: none;
 }
 .on-demand .widget-body .items > .item {
   width: 100%;

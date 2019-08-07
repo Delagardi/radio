@@ -116,6 +116,16 @@ $(function () {
       $('.sidebar-radio').sidebar('hide');
     });
   });
+  $('.survey').first().each(function () {
+    $(this).find('.progress').progress({
+      showActivity: false
+    });
+    $('button[type=submit]').click(function (e) {
+      e.preventDefault();
+      $(this).parents('.widget-body').addClass("results");
+      $(this).prop('disabled', true);
+    });
+  });
 });
 
 /***/ }),

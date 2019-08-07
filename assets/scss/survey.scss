@@ -1,3 +1,10 @@
+:root {
+  --checkbox-bg-color: #FAFAFA;
+  --checkbox-bg-color-hover: #EAF3FF;
+  --active-label-color: #161618;
+  --label-color: #7A7A7A;
+}
+
 .survey {
   width: 100%;
   .survey-radiobuttons {
@@ -8,6 +15,17 @@
       .checkbox {
         width: 100%;
         label {
+          color: var(--label-color);
+          padding: 16px 5px 16px 47px;
+          background: #FAFAFA;
+          border: 1px solid #E5E5E5;
+          border-radius: 2px;
+          font-weight: normal;
+          font-size: 15px;
+          white-space: nowrap; 
+          overflow: hidden;
+          text-overflow: ellipsis;
+
           &:before, &:after {
             background: #FFFFFF;
           }
@@ -32,6 +50,7 @@
             border: 1px solid var(--primary-color);
             box-sizing: border-box;
             border-radius: 2px;
+            color: var(--active-label-color);
           }
         }
     
@@ -43,28 +62,61 @@
         input:checked~label:after {
           background: #FFFFFF !important;
         }
-    
-        .buttons-groups {
-          button {
-            padding: 12px 18px;
-          }
-          
-          button[name="results"] {
-            margin-right: 20px;
+      }
+    }
+  }
+
+  .survey-results {
+    display: none;
+
+    .field {
+      margin-top: 43px;
+      &.active {
+        .progress {
+          background: #EAF3FF;
+          color: var(--active-label-color);
+          .label {
+            color: var(--active-label-color);
           }
         }
       }
-    
-      .label.answer-label {
-        padding: 16px 5px 16px 47px;
-        background: #FAFAFA;
-        border: 1px solid #E5E5E5;
-        border-radius: 2px;
-        font-weight: normal;
-        font-size: 15px;
-        white-space: nowrap; 
-        overflow: hidden;
-        text-overflow: ellipsis;
+
+      .progress {
+        .label {
+          color: var(--label-color);
+          text-align: left;
+          top: -100%;
+          font-weight: normal;
+        }
+        .bar {
+          position: static;
+          .progress {
+            color: var(--survey-text-color);
+          }
+        }
+      }
+    }
+  }
+
+  .widget-body {
+    .button-groups {
+      margin-top: 20px;
+      button {
+        padding: 12px 18px;
+      }
+      
+      button[name="results"] {
+        margin-right: 20px;
+      }
+    }
+
+    &.results {
+      .survey-results {
+        display: block;
+      }
+
+      .survey-radiobuttons {
+        display: none;
       }
     }
   }

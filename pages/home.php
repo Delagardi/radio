@@ -48,6 +48,8 @@
                     </div>
                 </div>
             </div>
+
+            <? include APP_DIR . '/partials/footer.php' ?>
         </div>
 
         <script type="text/javascript" src="<?= url('lib/jquery/jquery.min.js') ?>"></script>
