@@ -448,6 +448,66 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 .survey .widget-body.results .survey-radiobuttons {
   display: none;
 }
+.ui.dropdown.channel .menu {
+  border-radius: 2px;
+}
+.ui.dropdown.channel .menu .item {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.ui.dropdown.channel .menu .item .image-wrapper {
+  float: left;
+  margin-right: 9px;
+  margin-top: 8px;
+}
+.ui.dropdown.channel .menu .item .image-wrapper img {
+  width: 20px;
+  height: 20px;
+}
+.ui.dropdown.channel .menu .item .item-text-wrapper {
+  white-space: normal;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 120px;
+}
+.ui.dropdown.channel .menu .item .item-text-wrapper span {
+  line-height: 18px;
+  display: inline-block;
+}
+.ui.dropdown.user-dropdown .menu {
+  border-radius: 2px;
+  padding: 10px;
+}
+.ui.notification .menu {
+  max-width: 300px;
+}
+.ui.notification .menu .divider {
+  margin: 0.5em 16px 0;
+}
+.ui.notification .menu .item {
+  width: 300px;
+}
+.ui.notification .menu .item .icon-wrapper {
+  border: 2px solid #C4C4C4;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 16px;
+  float: left;
+}
+.ui.notification .menu .item .icon-wrapper .icon {
+  margin-right: 0;
+  color: var(--primary-color);
+}
+.ui.notification .menu .item .item-text-wrapper {
+  white-space: normal;
+  display: inline-block;
+  max-width: 185px;
+}
+.ui.notification .menu .item .time {
+  display: block;
+  padding-left: 50px;
+  padding-top: 3px;
+}
 .on-demand .widget-body .items > .item {
   width: 100%;
   max-width: 760px;

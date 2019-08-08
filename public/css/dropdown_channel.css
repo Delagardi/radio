@@ -1,0 +1,26 @@
+.ui.dropdown.channel .menu {
+  border-radius: 2px;
+}
+.ui.dropdown.channel .menu .item {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.ui.dropdown.channel .menu .item .image-wrapper {
+  float: left;
+  margin-right: 9px;
+  margin-top: 8px;
+}
+.ui.dropdown.channel .menu .item .image-wrapper img {
+  width: 20px;
+  height: 20px;
+}
+.ui.dropdown.channel .menu .item .item-text-wrapper {
+  white-space: normal;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 120px;
+}
+.ui.dropdown.channel .menu .item .item-text-wrapper span {
+  line-height: 18px;
+  display: inline-block;
+}

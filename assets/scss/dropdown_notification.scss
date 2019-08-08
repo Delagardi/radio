@@ -1,0 +1,32 @@
+.ui.notification {
+  .menu {
+    max-width: 300px;
+    .divider {
+      margin: .5em 16px 0;
+    }
+    .item {
+      width: 300px;
+      .icon-wrapper {
+        border: 2px solid #C4C4C4;
+        border-radius: 50%;
+        padding: 7px;
+        margin-right: 16px;
+        float: left;
+        .icon {
+          margin-right: 0;
+          color: var(--primary-color);
+        }
+      }
+      .item-text-wrapper {
+        white-space: normal;
+        display: inline-block;
+        max-width: 185px;
+      }
+      .time {
+        display: block;
+        padding-left: 50px;
+        padding-top: 3px;
+      }
+    }
+    }
+}

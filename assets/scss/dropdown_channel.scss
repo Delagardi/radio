@@ -1,0 +1,28 @@
+.ui.dropdown.channel {
+  .menu {
+	border-radius: 2px;
+	.item {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+		.image-wrapper {
+		  	float: left;
+		  	margin-right: 9px;
+		  	margin-top: 8px;
+			img {
+				width: 20px;
+				height: 20px;
+			}
+		}
+		.item-text-wrapper {
+		  white-space: normal;
+		  line-height: 36px;
+		  display: inline-block;
+		  max-width: 120px;
+		  span {
+			  line-height: 18px;
+			  display: inline-block;
+		  }
+	}
+	}
+  }
+}

@@ -155,6 +155,39 @@ $(function () {
 
 /***/ }),
 
+/***/ "./assets/scss/dropdown_channel.scss":
+/*!*******************************************!*\
+  !*** ./assets/scss/dropdown_channel.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./assets/scss/dropdown_notification.scss":
+/*!************************************************!*\
+  !*** ./assets/scss/dropdown_notification.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./assets/scss/dropdown_user.scss":
+/*!****************************************!*\
+  !*** ./assets/scss/dropdown_user.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./assets/scss/follow_us.scss":
 /*!************************************!*\
   !*** ./assets/scss/follow_us.scss ***!
@@ -321,30 +354,33 @@ $(function () {
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/on_demand.scss ./assets/scss/signup_popup.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ./assets/scss/homepage.scss ./assets/scss/weather.scss ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/dropdown_channel.scss ./assets/scss/dropdown_user.scss ./assets/scss/dropdown_notification.scss ./assets/scss/on_demand.scss ./assets/scss/signup_popup.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ./assets/scss/homepage.scss ./assets/scss/weather.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/js/core.js */"./assets/js/core.js");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/base.scss */"./assets/scss/base.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/last_news.scss */"./assets/scss/last_news.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/header.scss */"./assets/scss/header.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/footer.scss */"./assets/scss/footer.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/upcoming_events.scss */"./assets/scss/upcoming_events.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/most_viewed.scss */"./assets/scss/most_viewed.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/chat.scss */"./assets/scss/chat.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/survey.scss */"./assets/scss/survey.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/on_demand.scss */"./assets/scss/on_demand.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/signup_popup.scss */"./assets/scss/signup_popup.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_galleries.scss */"./assets/scss/latest_galleries.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/follow_us.scss */"./assets/scss/follow_us.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/shows.scss */"./assets/scss/shows.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_videos.scss */"./assets/scss/latest_videos.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
-__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/homepage.scss */"./assets/scss/homepage.scss");
-module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/weather.scss */"./assets/scss/weather.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\js\core.js */"./assets/js/core.js");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\base.scss */"./assets/scss/base.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\last_news.scss */"./assets/scss/last_news.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\header.scss */"./assets/scss/header.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\footer.scss */"./assets/scss/footer.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\upcoming_events.scss */"./assets/scss/upcoming_events.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\most_viewed.scss */"./assets/scss/most_viewed.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\chat.scss */"./assets/scss/chat.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\survey.scss */"./assets/scss/survey.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\dropdown_channel.scss */"./assets/scss/dropdown_channel.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\dropdown_user.scss */"./assets/scss/dropdown_user.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\dropdown_notification.scss */"./assets/scss/dropdown_notification.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\on_demand.scss */"./assets/scss/on_demand.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\signup_popup.scss */"./assets/scss/signup_popup.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\latest_galleries.scss */"./assets/scss/latest_galleries.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\follow_us.scss */"./assets/scss/follow_us.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\shows.scss */"./assets/scss/shows.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\latest_videos.scss */"./assets/scss/latest_videos.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\sidebar_radio.scss */"./assets/scss/sidebar_radio.scss");
+__webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\homepage.scss */"./assets/scss/homepage.scss");
+module.exports = __webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\scss\weather.scss */"./assets/scss/weather.scss");
 
 
 /***/ })
@@ -461,7 +497,7 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/js/homepage.js */"./assets/js/homepage.js");
+module.exports = __webpack_require__(/*! E:\Programming\Test\BeeJee\Work\Radio\radio\assets\js\homepage.js */"./assets/js/homepage.js");
 
 
 /***/ })
