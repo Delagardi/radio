@@ -24,5 +24,18 @@ $(() => {
             e.preventDefault();
             $('.sidebar-radio').sidebar('hide');
         });
-    })
+    });
+
+    $('.survey').first().each(function() {
+        $(this).find('.progress').progress({
+            showActivity: false
+        });
+        $('button[type=submit]').click(function(e) {
+            e.preventDefault();
+            $(this).parents('.widget-body').addClass("results");
+            $(this).prop('disabled', true);
+        });
+    });
+
+    $('.button.sign-in').click(() => $('#sign_in_modal').modal('show'));
 });

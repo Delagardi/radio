@@ -12,7 +12,7 @@
                     <i class="ui clock icon"></i>
                     Saturday, 22 December 2018 - 10:30 PM UTC+12
                 </div>
-                <div class="ui button item">
+                <div class="ui button item sign-in">
                     <i class="ui sign in icon"></i>
                     Sign In
                 </div>

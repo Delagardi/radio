@@ -116,6 +116,19 @@ $(function () {
       $('.sidebar-radio').sidebar('hide');
     });
   });
+  $('.survey').first().each(function () {
+    $(this).find('.progress').progress({
+      showActivity: false
+    });
+    $('button[type=submit]').click(function (e) {
+      e.preventDefault();
+      $(this).parents('.widget-body').addClass("results");
+      $(this).prop('disabled', true);
+    });
+  });
+  $('.button.sign-in').click(function () {
+    return $('#sign_in_modal').modal('show');
+  });
 });
 
 /***/ }),
@@ -230,6 +243,17 @@ $(function () {
 
 /***/ }),
 
+/***/ "./assets/scss/on_demand.scss":
+/*!************************************!*\
+  !*** ./assets/scss/on_demand.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./assets/scss/shows.scss":
 /*!********************************!*\
   !*** ./assets/scss/shows.scss ***!
@@ -245,6 +269,17 @@ $(function () {
 /*!****************************************!*\
   !*** ./assets/scss/sidebar_radio.scss ***!
   \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./assets/scss/signup_popup.scss":
+/*!***************************************!*\
+  !*** ./assets/scss/signup_popup.scss ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -286,9 +321,9 @@ $(function () {
 /***/ }),
 
 /***/ 0:
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ./assets/scss/homepage.scss ./assets/scss/weather.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./assets/js/core.js ./assets/scss/base.scss ./assets/scss/last_news.scss ./assets/scss/header.scss ./assets/scss/footer.scss ./assets/scss/upcoming_events.scss ./assets/scss/most_viewed.scss ./assets/scss/chat.scss ./assets/scss/survey.scss ./assets/scss/on_demand.scss ./assets/scss/signup_popup.scss ./assets/scss/latest_galleries.scss ./assets/scss/follow_us.scss ./assets/scss/shows.scss ./assets/scss/latest_videos.scss ./assets/scss/sidebar_radio.scss ./assets/scss/homepage.scss ./assets/scss/weather.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -301,6 +336,8 @@ __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/most_viewed.scss */"./assets/scss/most_viewed.scss");
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/chat.scss */"./assets/scss/chat.scss");
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/survey.scss */"./assets/scss/survey.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/on_demand.scss */"./assets/scss/on_demand.scss");
+__webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/signup_popup.scss */"./assets/scss/signup_popup.scss");
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/latest_galleries.scss */"./assets/scss/latest_galleries.scss");
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/follow_us.scss */"./assets/scss/follow_us.scss");
 __webpack_require__(/*! /var/www/uxcandy_vscode/data/public_html/dev_gavex/radio/assets/scss/shows.scss */"./assets/scss/shows.scss");

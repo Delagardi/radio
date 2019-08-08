@@ -9,6 +9,8 @@ mix
     .sass('assets/scss/most_viewed.scss', 'public/css/')
     .sass('assets/scss/chat.scss', 'public/css/')
     .sass('assets/scss/survey.scss', 'public/css/')
+    .sass('assets/scss/on_demand.scss', 'public/css/')
+    .sass('assets/scss/signup_popup.scss', 'public/css/')
     .sass('assets/scss/latest_galleries.scss', 'public/css/')
     .sass('assets/scss/follow_us.scss', 'public/css/')
     .sass('assets/scss/shows.scss', 'public/css/')
@@ -33,6 +35,8 @@ mix
         'public/css/most_viewed.css',
         'public/css/chat.css',
         'public/css/survey.css',
+        'public/css/on_demand.css',
+        'public/css/signup_popup.css',
         'public/css/latest_galleries.css',
         'public/css/follow_us.css',
         'public/css/shows.css',
