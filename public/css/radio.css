@@ -511,6 +511,46 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 .survey .widget-body.results .survey-radiobuttons {
   display: none;
 }
+.ui.dropdown.channel .menu {
+  border-radius: 2px;
+}
+.ui.dropdown.channel .menu .item img {
+  width: 20px;
+  height: 20px;
+}
+.ui.dropdown.user-dropdown .menu {
+  border-radius: 2px;
+  padding: 10px;
+}
+.ui.notification .menu {
+  max-width: 300px;
+}
+.ui.notification .menu .divider {
+  margin: 0.5em 16px 0;
+}
+.ui.notification .menu .item {
+  width: 300px;
+}
+.ui.notification .menu .item .icon {
+  border: 2px solid #C4C4C4;
+  border-radius: 50%;
+  padding: 7px 3px;
+  width: 35px;
+  height: 35px;
+  color: var(--primary-color);
+}
+.ui.notification .menu .item .text.title {
+  white-space: normal;
+  max-width: 210px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 20px;
+}
+.ui.notification .menu .item .text.title .time {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 .on-demand .widget-body .items > .item {
   width: 100%;
   max-width: 760px;

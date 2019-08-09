@@ -13,6 +13,9 @@
                         <i class="ui clock icon"></i>
                         Saturday, 22 December 2018 - 10:30 PM UTC+12
                     </div>
+                    <div class="item">
+                        <? include APP_DIR . '/partials/dropdown_notification.php' ?>
+                    </div>
                     <div class="ui button item">
                         <i class="ui sign in icon"></i>
                         Sign In
