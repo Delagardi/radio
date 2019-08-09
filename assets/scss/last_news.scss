@@ -20,6 +20,20 @@
           color: var(--text-color);
         }
       }
+
+      .ui.dropdown {
+        display: none;
+      }
+
+      @media (max-width: 991px) {
+        .item:nth-child(n+3) {
+          display: none;
+        }
+      
+        .ui.dropdown {
+          display: inline;
+        }
+      }
     }
   }
 

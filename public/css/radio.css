@@ -146,6 +146,17 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 .last-news .widget-head .ui.text.menu.arrows .item {
   color: var(--text-color);
 }
+.last-news .widget-head .ui.text.menu .ui.dropdown {
+  display: none;
+}
+@media (max-width: 991px) {
+  .last-news .widget-head .ui.text.menu .item:nth-child(n+3) {
+    display: none;
+  }
+  .last-news .widget-head .ui.text.menu .ui.dropdown {
+    display: inline;
+  }
+}
 .last-news .widget-body .ui.label.floating {
   transform: none;
   top: 10px;
@@ -209,6 +220,17 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 .header .menu.top-menu .item img {
   width: 20px;
   margin-right: 10px;
+}
+.header .menu.top-menu .ui.dropdown img {
+  vertical-align: middle;
+}
+.header .menu.top-menu.no-channel .container .dropdown, .header .menu.top-menu.no-channel .container .label {
+  display: none;
+}
+.header .menu.top-menu.no-channel .container .menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .header .navigation .logo {
   text-align: center;
@@ -351,6 +373,18 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover {
 }
 .most-viewed .widget-body .ui.items > .item > .image + .content {
   padding-left: 15px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .most-viewed .widget-body .ui.items > .item {
+    display: block;
+  }
+  .most-viewed .widget-body .ui.items > .item > .image {
+    width: 100%;
+  }
+  .most-viewed .widget-body .ui.items > .item > .image + .content {
+    padding-top: 10px;
+    padding-left: 0;
+  }
 }
 .chat .widget-head.dividing.header {
   margin-bottom: 0;

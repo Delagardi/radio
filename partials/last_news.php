@@ -1,6 +1,6 @@
 <div class="ui segment padded widget last-news">
     <div class="widget-head ui dividing header">
-        <div class="ui grid fitted stackable middle aligned two column">
+        <div class="ui grid fitted middle aligned two column">
             <div class="ui column">
                 <h2 class="ui header primary">Last news</h2>
             </div>
@@ -11,6 +11,15 @@
                         <a class="item" href="#">Creative</a>
                         <a class="item" href="#">Technology</a>
                         <a class="item" href="#">World</a>
+
+                        <div class="ui floating dropdown icon">
+                            <i class="icon ellipsis horizontal"></i>
+                            <div class="menu">
+                                <a class="item" href="#">Technology</a>
+                                <a class="item" href="#">World</a>
+                            </div>
+                        </div>
+
                         <div class="ui text huge right menu arrows">
                             <a class="item fitted" href="#"><i class="caret square left outline icon"></i></a>
                             <a class="item fitted" href="#"><i class="caret square right outline icon"></i></a>

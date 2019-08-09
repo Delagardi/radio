@@ -3,9 +3,33 @@
         <div class="ui container">
             <div class="ui label red item">CHANNEL</div>
             <div class="ui dropdown icon item">
-                <img class="ui avatar image" src="<?= url('images/header/hq_logo.svg') ?>">
-                <div class="text">Radio 3 Shuttle</div>
+                <div class="text">
+                    <img src="<?= url('images/header/hq_logo.svg') ?>">
+                    Radio 3 Shuttle
+                </div>
                 <i class="dropdown icon"></i>
+                <div class="menu">
+                    <div class="item">
+                        <img src="<?= url('images/header/forever_fm.svg') ?>">
+                        Forever FM 1
+                    </div>
+                    <div class="item active">
+                        <img src="<?= url('images/header/hq_logo.svg') ?>">
+                        Radio 3 Shuttle
+                    </div>
+                    <div class="item">
+                        <img src="<?= url('images/header/the_jolly_roger_dinamic_fm.svg') ?>">
+                        The Jolly Roger Dinamic FM
+                    </div>
+                    <div class="item">
+                        <img src="<?= url('images/header/latino_usa_fm.svg') ?>">
+                        Latino USA
+                    </div>
+                    <div class="item">
+                        <img src="<?= url('images/header/w_radio_fm.svg') ?>">
+                        W Radio
+                    </div>
+                </div>
             </div>
             <div class="right menu ">
                 <div class="ui grid computer only">
