@@ -7,10 +7,13 @@
 
 .survey {
   width: 100%;
+  .widget-head.dividing.header {
+    margin-bottom: 21px;
+  }
   .survey-radiobuttons {
     .field {
       width: 100%;
-      margin-top: 14px;
+      margin-top: -3px;
       
       .checkbox {
         width: 100%;
@@ -68,9 +71,11 @@
 
   .survey-results {
     display: none;
-
+    h4 {
+      margin-bottom: 45px;
+    }
     .field {
-      margin-top: 43px;
+      margin-top: 38px;
       &.active {
         .progress {
           background: #EAF3FF;
@@ -100,9 +105,10 @@
 
   .widget-body {
     .button-groups {
-      margin-top: 20px;
+      margin-top: 13px;
       button {
         padding: 12px 18px;
+        border-radius: 2px;
       }
       
       button[name="results"] {

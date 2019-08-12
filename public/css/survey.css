@@ -8,9 +8,12 @@
 .survey {
   width: 100%;
 }
+.survey .widget-head.dividing.header {
+  margin-bottom: 21px;
+}
 .survey .survey-radiobuttons .field {
   width: 100%;
-  margin-top: 14px;
+  margin-top: -3px;
 }
 .survey .survey-radiobuttons .field .checkbox {
   width: 100%;
@@ -60,8 +63,11 @@
 .survey .survey-results {
   display: none;
 }
+.survey .survey-results h4 {
+  margin-bottom: 45px;
+}
 .survey .survey-results .field {
-  margin-top: 43px;
+  margin-top: 38px;
 }
 .survey .survey-results .field.active .progress {
   background: #EAF3FF;
@@ -83,10 +89,11 @@
   color: var(--survey-text-color);
 }
 .survey .widget-body .button-groups {
-  margin-top: 20px;
+  margin-top: 13px;
 }
 .survey .widget-body .button-groups button {
   padding: 12px 18px;
+  border-radius: 2px;
 }
 .survey .widget-body .button-groups button[name=results] {
   margin-right: 20px;
