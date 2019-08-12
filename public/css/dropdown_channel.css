@@ -1,0 +1,7 @@
+.ui.dropdown.channel .menu {
+  border-radius: 2px;
+}
+.ui.dropdown.channel .menu .item img {
+  width: 20px;
+  height: 20px;
+}

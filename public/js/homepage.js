@@ -98,6 +98,9 @@ $(function () {
     e.preventDefault();
     $('.sidebar-radio').sidebar('show');
   });
+  $('.ui.dropdown.downward').dropdown({
+    direction: 'downward'
+  });
 });
 
 /***/ }),

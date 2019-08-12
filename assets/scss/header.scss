@@ -1,9 +1,36 @@
 .header {
-    margin-bottom: 40px;
-
     .ui.label {
         border-radius: 0;
         white-space: nowrap;
+        text-transform: uppercase;
+        margin: 0;
+
+        &.playlist, &.recorded, &.syndicated, &.live, &.offair {
+            display: none;
+        }
+    }
+
+    &.live .ui.label.live,
+    &.playlist .ui.label.playlist,
+    &.recorded .ui.label.recorded, 
+    &.offair .ui.label.offair,
+    &.syndicated .ui.label.syndicated, {
+        display: inline-block;
+    }
+    
+    .offair {
+        display: none;
+    }
+
+    &.offair {
+        .group-logo,
+        .ui.label.time,
+        .song-info {
+            display: none;
+        }
+        .offair {
+            display: block;
+        }
     }
 
     .menu.top-menu {
@@ -12,46 +39,107 @@
         border-right: none;
         border-top: none;
         border-radius: 0;
+        
+        @media (max-width: 767.98px) {
+            height: 31px;
+            min-height: 31px;
+        }
 
         .item {
             &.date {
                 color: var(--text-color);
             }
 
-            > img {
+            img {
                 width: 20px;
                 margin-right: 10px;
+            }
+        }
+
+        .ui.dropdown {
+            img {
+                vertical-align: middle;
             }
         }
     }
 
     .navigation {
-        .status {
-            display: flex;
-            align-items: center;
+        .logo {
+            @media (max-width: 767.98px) {
+                height: 28px;
+            }
+           
+            text-align: center;
+
+            a {
+                color: var(--title-color);
+            }
         }
 
-        .ui.horizontal.segments {
-            margin: 0;
-
-            .live-status {
-                display: flex;
-                justify-content: flex-end;
-                align-items: flex-end;
-                line-height: 0;
-            }
-
-            .song-info {
-                height: 50px;
-                width: 270px;
-                padding: 5px 10px;
-
-                h5, .artist {
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
+        .status-computer {
+            .ui.horizontal.segments {
+                margin: 0;
+    
+                .live-status {
+                    display: flex;
+                    justify-content: flex-end;
+                    text-align: right;
+                    align-items: flex-end;
+                    line-height: 0;
+                }
+    
+                .song-info {
+                    height: 50px;
+                    width: 270px;
+                    padding: 5px 10px;
+    
+                    h5, .artist {
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                }
+    
+                .buttons {
+                    padding: 15px 0;
                 }
             }
+        }
+
+        .status-mobile {
+            margin-top: 0;
+            
+            .ui.label {
+                font-size: 11px;
+                height: 20px;
+                line-height: 11px;
+                padding: 4px 7px;
+                margin: 0;
+            }
+
+            .item {
+                padding: 0 5px;
+
+                .image, .image > img {
+                    width: 60px !important;
+                    height: 40px !important;
+                }
+
+                .song-info, .live-status, .play-button {
+                    padding: 0;
+                    h5 {
+                        overflow-wrap: break-word;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+        
+        .actions {
+            padding-bottom: 0;
+            margin-bottom: 0;
         }
 
         .horizontal-nav {

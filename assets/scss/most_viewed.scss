@@ -12,6 +12,19 @@
                     padding-left: 15px;
                 }
             }
+
+            @media (min-width: 768px) and (max-width: 1199px) {
+                display: block;
+
+                & > .image {
+                    width: 100%;
+
+                    + .content {
+                        padding-top: 10px;
+                        padding-left: 0;
+                    }
+                }
+            }
         }
     }
 }
