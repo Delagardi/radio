@@ -44,14 +44,6 @@
 .header .menu.top-menu .ui.dropdown img {
   vertical-align: middle;
 }
-.header .menu.top-menu.no-channel .container .dropdown, .header .menu.top-menu.no-channel .container .label {
-  display: none;
-}
-.header .menu.top-menu.no-channel .container .menu {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
 .header .navigation .logo {
   text-align: center;
 }
